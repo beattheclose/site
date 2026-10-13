@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beat the Close</title>
+<meta name="description" content="Bookmaker prices the sharp market says are wrong, with every pick graded against the closing line in public. 18+.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2316a34a'/%3E%3Cpath d='M8 21l6-6 4 4 7-8' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root {
+  --bg: #f7f8f6; --card: #ffffff; --text: #17201b; --muted: #5d6b63; --line: #e2e7e3;
+  --green: #16a34a; --green-soft: #e7f6ec; --amber: #d97706; --amber-soft: #fdf3e2;
+  --red: #c2410c; --accent: #0f5132;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f1512; --card: #17201b; --text: #e8efe9; --muted: #9db0a4; --line: #26332b;
+          --green: #34d27a; --green-soft: #173323; --amber: #f5a524; --amber-soft: #3a2a12;
+          --red: #fb8a5a; --accent: #8be3ae; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+       font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+header { border-bottom: 1px solid var(--line); }
+header .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+.logo { font-weight: 800; letter-spacing: -0.02em; font-size: 20px; color: var(--text); text-decoration: none; }
+.logo span { color: var(--green); }
+nav a { margin-left: 18px; color: var(--muted); text-decoration: none; font-size: 15px; }
+.hero { padding: 56px 0 36px; }
+.hero h1 { font-size: clamp(30px, 5vw, 46px); line-height: 1.1; margin: 0 0 14px; letter-spacing: -0.02em; }
+.hero p { font-size: 18px; color: var(--muted); max-width: 640px; margin: 0 0 24px; }
+.buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-block; padding: 11px 18px; border-radius: 10px; font-weight: 600;
+       text-decoration: none; border: 1px solid var(--line); background: var(--card); color: var(--text); }
+.btn.primary { background: var(--green); border-color: var(--green); color: #fff; }
+.note { font-size: 14px; color: var(--muted); margin-top: 12px; }
+section { padding: 28px 0; }
+h2 { font-size: 24px; margin: 0 0 6px; letter-spacing: -0.01em; }
+.sub { color: var(--muted); margin: 0 0 18px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+.card h3 { margin: 0 0 4px; font-size: 18px; }
+.big { font-size: 34px; font-weight: 800; letter-spacing: -0.02em; margin: 8px 0 0; }
+.big small { font-size: 15px; font-weight: 500; color: var(--muted); }
+.bands { margin: 12px 0 0; padding: 0; list-style: none; font-size: 15px; }
+.bands li { padding: 3px 0; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+.dot.green { background: var(--green); } .dot.amber { background: var(--amber); }
+.past { margin-top: 12px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 10px; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 560px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 13px; }
+tr:last-child td { border-bottom: none; }
+td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pos { color: var(--green); font-weight: 600; } .neg { color: var(--red); font-weight: 600; }
+.tag { font-size: 12px; padding: 2px 7px; border-radius: 99px; background: var(--amber-soft); color: var(--amber); }
+.steps { counter-reset: s; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.step { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+.step::before { counter-increment: s; content: counter(s); display: inline-grid; place-items: center;
+                width: 28px; height: 28px; border-radius: 50%; background: var(--green-soft);
+                color: var(--green); font-weight: 800; margin-bottom: 8px; }
+.honest { background: var(--amber-soft); border-radius: 14px; padding: 18px; }
+.honest p { margin: 6px 0; }
+footer { border-top: 1px solid var(--line); margin-top: 28px; padding: 24px 0 40px; font-size: 14px; color: var(--muted); }
+footer p { margin: 6px 0; }
+@media (max-width: 520px) { nav { display: none; } .hero { padding-top: 36px; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#">Beat <span>the</span> Close</a>
+  <nav><a href="#record">Record</a><a href="#how">How it works</a><a href="#join">Join</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero" id="join">
+    <h1>Prices the market says are wrong.</h1>
+    <p>We scan UK bookmakers and US player props for prices the sharp market disagrees with, and
+       grade every pick against the closing line, in public: good results, bad results and corrections.</p>
+    <div class="buttons"><span class="note">Join links coming soon.</span></div>
+    <p class="note">Free during our trial, until 22 November 2026. No payment details, nothing to cancel.</p>
+  </div>
+
+  <section id="record">
+    <h2>The record</h2>
+    <p class="sub">Every posted pick, graded against the closing price once it starts. Updated Tue 13 Oct 2026, 13:13 (UK time).</p>
+    <div class="cards"><div class="card"><h3>UK picks</h3><p class="sub">Since 11 October 2026</p><p class="big">+3.1% <small>average vs the close</small></p><p class="sub">32 of 40 picks beat the closing price</p><ul class="bands"><li><span class="dot green"></span>Green: 12/15 beat the close · avg +4.8%</li><li><span class="dot amber"></span>Amber: 20/25 beat the close · avg +2.1%</li><li>1 withdrawn after posting, not counted</li></ul><p class="past">Past picks like these: +2.5% vs the closing price over 496 picks since August, graded at Pinnacle&#x27;s close or Betfair&#x27;s (odds up to 4.0).</p></div><div class="card"><h3>NFL props</h3><p class="sub">Since 11 October 2026</p><p class="big">+3.2% <small>average vs the close</small></p><p class="sub">13 of 13 picks beat the closing price</p><ul class="bands"><li><span class="dot green"></span>Green: 1/1 beat the close · avg +3.5%</li><li><span class="dot amber"></span>Amber: 12/12 beat the close · avg +3.2%</li></ul><p class="past">Since 13 Oct, a pick must beat both Pinnacle and the exchanges. Replayed on the 2025 season, that rule beat the closing price by 2.9% or more over 650 NFL props, graded at either; we&#x27;re confirming it live.</p></div></div>
+  </section>
+
+  <section>
+    <h2>Recent picks</h2>
+    <p class="sub">Picks appear here once their game has started. "vs close" is how far our price beat the
+       fair closing price (positive is good).</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Date</th><th>Pick</th><th>Event</th><th class="num">Price</th><th class="num">Fair close</th><th class="num">vs close</th></tr></thead>
+      <tbody><tr><td>Tue 13 Oct</td><td><span class="dot green"></span>Shuai Zhang to win @ 2.50</td><td>Ashlyn Krueger v Shuai Zhang</td><td class="num">2.50</td><td class="num">2.21</td><td class="num"><span class="pos">+12.9%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot green"></span>Alexander Bublik to win @ 3.60</td><td>Alexander Zverev v Alexander Bublik</td><td class="num">3.60</td><td class="num">3.72</td><td class="num"><span class="neg">-3.3%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot green"></span>Alexander Bublik +2.5 @ 2.10</td><td>Alexander Zverev v Alexander Bublik</td><td class="num">2.10</td><td class="num">2.11</td><td class="num"><span class="neg">-0.3%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Ann Li to win @ 1.80</td><td>Ann Li v Maria Camila Osorio Serrano</td><td class="num">1.80</td><td class="num">1.74</td><td class="num"><span class="pos">+3.6%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Arthur Gea to win @ 2.50</td><td>Arthur Gea v Jakub Mensik</td><td class="num">2.50</td><td class="num">2.59</td><td class="num"><span class="neg">-3.3%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Jakub Mensik to win @ 1.75</td><td>Arthur Gea v Jakub Mensik</td><td class="num">1.75</td><td class="num">1.63</td><td class="num"><span class="pos">+7.3%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot green"></span>Daria Kasatkina to win @ 2.28</td><td>Daria Kasatkina v Jelena Ostapenko</td><td class="num">2.28</td><td class="num">2.31</td><td class="num"><span class="neg">-1.2%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot green"></span>Utah Jazz to win @ 1.75</td><td>Utah Jazz v San Antonio Spurs</td><td class="num">1.75</td><td class="num">1.51</td><td class="num"><span class="pos">+16.0%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>James Cook Under 1.5 receptions @ +115 (2.15)</td><td>Buffalo Bills @ Los Angeles Rams</td><td class="num">+115 (2.15)</td><td class="num">+107 (2.07)</td><td class="num"><span class="pos">+4.0%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Davante Adams Over 4.5 receptions @ +120 (2.20)</td><td>Buffalo Bills @ Los Angeles Rams</td><td class="num">+120 (2.20)</td><td class="num">+110 (2.10)</td><td class="num"><span class="pos">+4.9%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Puka Nacua Over 7.5 receptions @ +120 (2.20)</td><td>Buffalo Bills @ Los Angeles Rams</td><td class="num">+120 (2.20)</td><td class="num">+112 (2.12)</td><td class="num"><span class="pos">+3.7%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Cleveland Guardians +1.5 @ 1.73</td><td>Tampa Bay Rays v Cleveland Guardians</td><td class="num">1.73</td><td class="num">1.71</td><td class="num"><span class="pos">+1.0%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Under 7 @ 1.96</td><td>Tampa Bay Rays v Cleveland Guardians</td><td class="num">1.96</td><td class="num">-</td><td class="num">awaiting close</td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Botafogo-SP to win @ 2.25</td><td>Botafogo-SP v Ceará</td><td class="num">2.25</td><td class="num">2.36</td><td class="num"><span class="neg">-4.8%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Tampa Bay Rays to win @ 1.68</td><td>Tampa Bay Rays v Cleveland Guardians</td><td class="num">1.68</td><td class="num">1.65</td><td class="num"><span class="pos">+1.7%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Minnesota Timberwolves to win @ 2.17</td><td>New York Knicks v Minnesota Timberwolves</td><td class="num">2.17</td><td class="num">1.94</td><td class="num"><span class="pos">+11.7%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot green"></span>Brooklyn Nets to win @ 2.40</td><td>Washington Wizards v Brooklyn Nets</td><td class="num">2.40</td><td class="num">2.29</td><td class="num"><span class="pos">+4.7%</span></td></tr><tr><td>Tue 13 Oct</td><td><span class="dot amber"></span>Under 223.5 @ 2.02</td><td>Atlanta Hawks v Oklahoma City Thunder</td><td class="num">2.02</td><td class="num">-</td><td class="num">awaiting close</td></tr><tr><td>Tue 13 Oct</td><td><span class="dot green"></span>Oklahoma City Thunder to win @ 2.85</td><td>Atlanta Hawks v Oklahoma City Thunder</td><td class="num">2.85</td><td class="num">2.75</td><td class="num"><span class="pos">+3.5%</span></td></tr><tr><td>Mon 12 Oct</td><td><span class="dot green"></span>Draw @ 3.70</td><td>Famalicão v Alverca</td><td class="num">3.70</td><td class="num">3.44</td><td class="num"><span class="pos">+7.4%</span></td></tr><tr><td>Mon 12 Oct</td><td><span class="dot amber"></span>Coventry City to win @ 3.45</td><td>Coventry City v Newcastle United</td><td class="num">3.45</td><td class="num">3.85</td><td class="num"><span class="neg">-10.4%</span></td></tr><tr><td>Mon 12 Oct</td><td><span class="dot amber"></span>Under 2.5 @ 2.06</td><td>Shamrock Rovers v Bohemians</td><td class="num">2.06</td><td class="num">-</td><td class="num">awaiting close</td></tr><tr><td>Mon 12 Oct</td><td><span class="dot amber"></span>Bohemians to win @ 3.10</td><td>Shamrock Rovers v Bohemians</td><td class="num">3.10</td><td class="num">3.55</td><td class="num"><span class="neg">-12.7%</span></td></tr><tr><td>Mon 12 Oct</td><td><span class="dot amber"></span>Clube de Regatas Brasil to win @ 3.95</td><td>Fortaleza v Clube de Regatas Brasil</td><td class="num">3.95</td><td class="num">3.71</td><td class="num"><span class="pos">+6.4%</span></td></tr><tr><td>Mon 12 Oct</td><td><span class="dot green"></span>Draw @ 3.40</td><td>Shamrock Rovers v Bohemians</td><td class="num">3.40</td><td class="num">3.22</td><td class="num"><span class="pos">+5.7%</span></td></tr></tbody>
+    </table></div>
+  </section>
+
+  <section id="how">
+    <h2>How it works</h2>
+    <p class="sub">We don't predict results. We look for prices.</p>
+    <div class="steps">
+      <div class="step"><strong>Price the market.</strong> Every few minutes we work out a fair price for
+        each market from the sharpest prices available.</div>
+      <div class="step"><strong>Post the outliers.</strong> When a bookmaker offers more than that fair price,
+        we post it with the books offering it, the lowest price still worth taking and a suggested stake.</div>
+      <div class="step"><strong>Grade it at the close.</strong> At kick-off we record the closing price. A price that
+        beats the close is the best short-run evidence that it was a good one, because it removes luck.</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="honest">
+      <h2>What we don't promise</h2>
+      <p>Beating the closing price is evidence of good prices, not a promise of profit. Results vary and
+         losing runs are normal: at our suggested stakes, a typical worst drop is 13% of a betting bank.</p>
+      <p>Bookmakers often limit accounts that regularly beat the close. Only bet what you can afford to lose.</p>
+      <p>We never message you first, never ask for payment in a private message, and never ask for your
+         bookmaker login. Anyone who does is not us.</p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <p><strong>18+</strong> (21+ for NFL props). If gambling stops being fun, stop. UK: <a href="https://www.begambleaware.org">BeGambleAware.org</a>
+     · National Gambling Helpline 0808 8020 133 · <a href="https://www.gamstop.co.uk">GAMSTOP</a> · US: 1-800-GAMBLER</p>
+  <p>Beat the Close publishes betting information. We are not a bookmaker and are not affiliated with any bookmaker.
+     Terms, disclaimer and privacy · <a href="mailto:hello@beattheclose.co.uk">hello@beattheclose.co.uk</a></p>
+</div></footer>
+</body>
+</html>
