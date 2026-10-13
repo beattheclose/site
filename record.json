@@ -1,12 +1,12 @@
 {
- "generated_utc": "2026-10-13T18:55:21.932251+00:00",
+ "generated_utc": "2026-10-13T20:05:43.541851+00:00",
  "streams": {
   "uk": {
    "total": {
-    "picks": 47,
-    "graded": 47,
-    "beat": 37,
-    "avg_clv": 0.03217033296175612
+    "picks": 49,
+    "graded": 49,
+    "beat": 38,
+    "avg_clv": 0.03153435307252154
    },
    "bands": {
     "GREEN": {
@@ -16,10 +16,10 @@
      "avg_clv": 0.04698485239988559
     },
     "AMBER": {
-     "picks": 31,
-     "graded": 31,
-     "beat": 24,
-     "avg_clv": 0.02452412938078607
+     "picks": 33,
+     "graded": 33,
+     "beat": 25,
+     "avg_clv": 0.024043201883496543
     }
    },
    "yesterday": {
@@ -77,6 +77,30 @@
   }
  },
  "recent": [
+  {
+   "date": "Tue 13 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Draw @ 4.00",
+   "event": "Atl\u00e9tico Madrid v Manchester United",
+   "price": 4.0,
+   "withdrawn": false,
+   "fair_close": 4.031980462314255,
+   "clv": -0.007931700714615908,
+   "close_status": "same_line"
+  },
+  {
+   "date": "Tue 13 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Draw @ 3.75",
+   "event": "Villarreal v Napoli",
+   "price": 3.75,
+   "withdrawn": false,
+   "fair_close": 3.601927110307614,
+   "clv": 0.0411093520656336,
+   "close_status": "same_line"
+  },
   {
    "date": "Tue 13 Oct",
    "stream": "uk",
@@ -351,30 +375,6 @@
    "withdrawn": false,
    "fair_close": 2.3638193370006664,
    "clv": -0.04815060745931887,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Tue 13 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Tampa Bay Rays to win @ 1.68",
-   "event": "Tampa Bay Rays v Cleveland Guardians",
-   "price": 1.68,
-   "withdrawn": false,
-   "fair_close": 1.6515193223570617,
-   "clv": 0.017245137406137312,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Tue 13 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Minnesota Timberwolves to win @ 2.17",
-   "event": "New York Knicks v Minnesota Timberwolves",
-   "price": 2.17,
-   "withdrawn": false,
-   "fair_close": 1.9429974365121336,
-   "clv": 0.11683111836491022,
    "close_status": "same_line"
   }
  ]
