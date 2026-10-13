@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://beattheclose.co.uk/sitemap.xml

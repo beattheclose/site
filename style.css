@@ -139,21 +139,21 @@ td.pick { font-weight: 600; min-width: 14em; }
 td.event { color: var(--muted); min-width: 12em; }
 tr.withdrawn td.pick { text-decoration: line-through; text-decoration-color: var(--subtle); }
 @media (max-width: 760px) {
-  table, tbody { display: block; }
-  thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  tbody tr { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 12px; padding: 16px;
-             border-bottom: 1px solid var(--line); }
-  tbody tr:last-child { border-bottom: none; }
-  td { display: block; padding: 0; border: none; }
-  td.date, td.pick, td.event { grid-column: 1 / -1; min-width: 0; }
-  td.date { font-size: 0.8125rem; display: flex; gap: 8px; }
-  td.date .chan { display: inline; font-size: inherit; }
-  td.date .chan::before { content: "·"; margin-right: 8px; }
-  td.pick { margin-top: 4px; }
-  td.event { font-size: 0.875rem; margin: 2px 0 12px; }
-  td.num { text-align: left; white-space: normal; }
-  td.num::before { content: attr(data-label); display: block; font-size: 0.75rem; color: var(--subtle); margin-bottom: 2px; }
-  tr.empty td { grid-column: 1 / -1; }
+  .picks, .picks tbody { display: block; }
+  .picks thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .picks tbody tr { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 12px; padding: 16px;
+                    border-bottom: 1px solid var(--line); }
+  .picks tbody tr:last-child { border-bottom: none; }
+  .picks td { display: block; padding: 0; border: none; }
+  .picks td.date, .picks td.pick, .picks td.event { grid-column: 1 / -1; min-width: 0; }
+  .picks td.date { font-size: 0.8125rem; display: flex; gap: 8px; }
+  .picks td.date .chan { display: inline; font-size: inherit; }
+  .picks td.date .chan::before { content: "·"; margin-right: 8px; }
+  .picks td.pick { margin-top: 4px; }
+  .picks td.event { font-size: 0.875rem; margin: 2px 0 12px; }
+  .picks td.num { text-align: left; white-space: normal; }
+  .picks td.num::before { content: attr(data-label); display: block; font-size: 0.75rem; color: var(--subtle); margin-bottom: 2px; }
+  .picks tr.empty td { grid-column: 1 / -1; }
 }
 
 /* How it works */
@@ -201,3 +201,20 @@ footer a { color: var(--muted); }
 .prose p { margin: 0.8em 0 0; }
 .prose ul { margin: 0.8em 0 0; padding-left: 1.2em; display: grid; gap: 0.5em; }
 .prose strong { color: var(--text); }
+.prose .lede { font-size: clamp(1.125rem, 2.2vw, 1.25rem); line-height: 1.5; color: var(--muted); margin-top: 18px; }
+.prose h3 { font-size: 1.125rem; margin: 1.6em 0 0; }
+.prose ol { margin: 0.8em 0 0; padding-left: 1.4em; display: grid; gap: 0.5em; }
+.prose blockquote { margin: 1.2em 0 0; padding: 14px 18px; border-left: 3px solid var(--teal);
+                    background: var(--surface-2); border-radius: 0 12px 12px 0; }
+.prose blockquote p { margin: 0; color: var(--text); }
+.prose .table-wrap { margin-top: 1.2em; overflow-x: auto; }
+.prose table { min-width: 460px; }
+.prose td, .prose th { padding: 10px 14px; }
+.prose td { color: var(--muted); }
+.prose .cta { margin-top: 3em; }
+.prose .cta h2 { margin-top: 0; }
+.prose .cta .buttons { margin-top: 18px; }
+.prose .cta .note { margin-top: 16px; }
+.prose code { font-size: 0.9em; padding: 1px 6px; border-radius: 6px; background: var(--surface-2); color: var(--text); }
+.guides { margin: 16px 0 0; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+.more { margin: 22px 0 0; display: flex; flex-wrap: wrap; gap: 8px 20px; font-weight: 600; }
