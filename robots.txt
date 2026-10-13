@@ -1,4 +1,15 @@
 User-agent: *
 Allow: /
 
+# AI model training: no
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+User-agent: Bytespider
+Disallow: /
+
 Sitemap: https://beattheclose.co.uk/sitemap.xml
