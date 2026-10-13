@@ -9,220 +9,26 @@
 <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://beattheclose.co.uk/">
-<link rel="icon" href="favicon.ico" sizes="32x32">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="preload" href="display.woff" as="font" type="font/woff" crossorigin>
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/display.woff" as="font" type="font/woff" crossorigin>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Beat the Close">
 <meta property="og:url" content="https://beattheclose.co.uk/">
-<meta property="og:title" content="Beat the Close">
+<meta property="og:title" content="Beat the Close: prices the market says are wrong">
 <meta property="og:description" content="Bookmaker prices the sharp market says are wrong. Every pick graded against the closing line, in public. 18+.">
 <meta property="og:image" content="https://beattheclose.co.uk/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Beat the Close: every pick graded against the closing line, in public.">
 <meta name="twitter:card" content="summary_large_image">
-<style>
-/* Headings: a Latin subset of Playfair Display (SIL OFL, see font-licence.txt). */
-@font-face { font-family: "Close Display"; src: url("display.woff") format("woff");
-             font-weight: 700; font-style: normal; font-display: swap; }
-
-:root {
-  --bg: #f8fafc; --surface: #ffffff; --surface-2: #f1f5f9; --text: #0f172a; --muted: #475569;
-  --subtle: #64748b; --line: #e2e8f0; --teal: #14b8a6; --teal-ink: #0f766e;
-  --pos: #0f766e; --neg: #b42318; --green: #16a34a; --amber: #d97706;
-  --tag-bg: #fef3c7; --tag-ink: #92400e;
-  --header: rgba(248, 250, 252, 0.72);
-  --logo-the: #64748b; --logo-divider: #cbd5e1; --logo-line: #14b8a6;
-  --radius: 18px; --shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px rgba(15, 23, 42, 0.06);
-  --display: "Close Display", "Playfair Display", Georgia, "Times New Roman", serif;
-  --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0f172a; --surface: #152035; --surface-2: #1a2740; --text: #f1f5f9; --muted: #a8b6c9;
-    --subtle: #8a9ab0; --line: #24324d; --teal: #2dd4bf; --teal-ink: #5eead4;
-    --pos: #5eead4; --neg: #fca5a5; --green: #4ade80; --amber: #fbbf24;
-    --tag-bg: #3a2c10; --tag-ink: #fcd34d;
-    --header: rgba(15, 23, 42, 0.72);
-    --logo-the: #94a3b8; --logo-divider: #334155;
-    --shadow: none;
-  }
-}
-@media (prefers-contrast: more) {
-  :root { --line: #94a3b8; --muted: #334155; --subtle: #334155; }
-  @media (prefers-color-scheme: dark) { :root { --line: #64748b; --muted: #e2e8f0; --subtle: #e2e8f0; } }
-}
-
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: 76px; }
-@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
-body { margin: 0; background: var(--bg); color: var(--text); font: 400 1.0625rem/1.55 var(--sans);
-       -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; }
-a { color: var(--teal-ink); text-underline-offset: 0.18em; }
-:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; border-radius: 6px; }
-p { text-wrap: pretty; }
-.wrap { max-width: 1080px; margin: 0 auto;
-        padding-inline: max(16px, env(safe-area-inset-left)) max(16px, env(safe-area-inset-right)); }
-.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-.skip { position: absolute; left: 12px; top: -48px; background: var(--text); color: var(--bg); padding: 8px 14px;
-        border-radius: 10px; z-index: 20; text-decoration: none; }
-.skip:focus { top: 10px; }
-.muted { color: var(--subtle); }
-
-/* Headings: size-specific tracking, leading shrinks as size grows */
-h1, h2 { font-family: var(--display); font-weight: 700; text-wrap: balance; margin: 0; }
-h1 { font-size: clamp(2.5rem, 7.2vw, 4.4rem); line-height: 1.03; letter-spacing: -0.022em; }
-h2 { font-size: clamp(1.85rem, 4.2vw, 2.6rem); line-height: 1.08; letter-spacing: -0.015em; }
-h3 { font-size: 1.0625rem; line-height: 1.3; font-weight: 650; margin: 0; letter-spacing: -0.005em; }
-
-/* Header: a translucent material over the page, solid when transparency is reduced */
-.site-header { position: sticky; top: 0; z-index: 10; background: var(--header);
-               -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
-               border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top); }
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) { .site-header { background: var(--bg); } }
-@media (prefers-reduced-transparency: reduce) { .site-header { background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; } }
-.site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 16px; }
-.brand { color: var(--text); display: inline-flex; align-items: center; min-height: 44px; }
-.logo { display: block; height: 26px; width: auto; }
-.site-nav { display: flex; align-items: center; gap: 6px; }
-.site-nav a.link { color: var(--muted); text-decoration: none; font-size: 0.9375rem; padding: 10px 10px; border-radius: 10px; }
-.site-nav a.link:hover { color: var(--text); }
-@media (max-width: 720px) { .site-nav a.link { display: none; } .logo { height: 22px; } }
-
-/* Buttons: respond on press */
-.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 20px;
-       border-radius: 999px; font-weight: 600; font-size: 1rem; text-decoration: none; white-space: nowrap;
-       color: var(--text); background: var(--surface); border: 1px solid var(--line);
-       transition: transform 100ms ease-out, background-color 150ms ease-out; }
-.btn:hover { background: var(--surface-2); }
-.btn:active { transform: scale(0.97); }
-.btn.primary { background: var(--text); color: var(--bg); border-color: var(--text); }
-.btn.primary:hover { background: var(--text); opacity: 0.9; }
-.btn.small { min-height: 40px; padding: 0 16px; font-size: 0.9375rem; }
-@media (prefers-reduced-motion: reduce) { .btn { transition: none; } .btn:active { transform: none; } }
-.buttons { display: flex; flex-wrap: wrap; gap: 10px; }
-@media (max-width: 520px) { .buttons .btn { flex: 1 1 100%; } }
-
-/* Hero */
-.hero { padding-block: clamp(40px, 9vw, 104px) clamp(36px, 6vw, 72px);
-        display: grid; gap: clamp(28px, 5vw, 56px); align-items: center; }
-@media (min-width: 900px) { .hero { grid-template-columns: 1.25fr 0.85fr; } }
-.badge { display: inline-block; margin: 0 0 18px; padding: 5px 12px; border-radius: 999px; font-size: 0.8125rem;
-         font-weight: 600; color: var(--teal-ink); background: color-mix(in srgb, var(--teal) 14%, transparent); }
-.lead { font-size: clamp(1.125rem, 2.2vw, 1.3125rem); line-height: 1.5; color: var(--muted); max-width: 36em; margin: 20px 0 28px; }
-.note { font-size: 0.9375rem; color: var(--subtle); margin: 14px 0 0; }
-
-/* Cards */
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-        padding: clamp(18px, 3vw, 26px); box-shadow: var(--shadow); }
-.eyebrow { margin: 0 0 12px; font-size: 0.8125rem; font-weight: 600; color: var(--subtle); letter-spacing: 0.01em; }
-.latest-pick { margin: 0; font-size: 1.1875rem; font-weight: 650; line-height: 1.35; letter-spacing: -0.01em; }
-.latest-event { margin: 4px 0 18px; color: var(--muted); font-size: 0.9375rem; }
-.lead-small { margin: 0; color: var(--muted); }
-.grade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 0; padding: 16px 0 0;
-         border-top: 1px solid var(--line); }
-.grade dt { font-size: 0.8125rem; color: var(--subtle); }
-.grade dd { margin: 2px 0 0; font-size: 1.125rem; font-weight: 650; font-variant-numeric: tabular-nums; }
-.latest .note { margin-top: 16px; font-size: 0.875rem; }
-
-.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; vertical-align: 0.06em; flex: none; }
-.dot.green { background: var(--green); } .dot.amber { background: var(--amber); }
-.pos { color: var(--pos); font-weight: 650; } .neg { color: var(--neg); font-weight: 650; }
-.tag { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 2px 9px; border-radius: 999px;
-       background: var(--tag-bg); color: var(--tag-ink); }
-
-/* Sections */
-section { padding-block: clamp(44px, 7vw, 88px); border-top: 1px solid var(--line); }
-.section-head { margin-bottom: clamp(20px, 3vw, 32px); max-width: 44em; }
-.section-head p { margin: 12px 0 0; color: var(--muted); }
-
-/* Record */
-.cards { display: grid; gap: 16px; }
-@media (min-width: 760px) { .cards { grid-template-columns: 1fr 1fr; } }
-.card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-.since { font-size: 0.875rem; color: var(--subtle); }
-.big { margin: 14px 0 12px; font-size: clamp(2.6rem, 6vw, 3.4rem); font-weight: 700; line-height: 1;
-       letter-spacing: -0.035em; font-variant-numeric: tabular-nums; }
-.big span { display: block; margin-top: 8px; font-size: 0.9375rem; font-weight: 500; letter-spacing: 0; color: var(--muted); }
-.meter { height: 8px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
-.meter span { display: block; height: 100%; border-radius: inherit; background: var(--teal); }
-.record-card .sub { margin: 10px 0 0; font-weight: 500; }
-.bands { list-style: none; margin: 16px 0 0; padding: 0; font-size: 0.9375rem; display: grid; gap: 6px; }
-.past { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--line); font-size: 0.875rem; color: var(--muted); }
-
-/* Recent picks: a table on wide screens, stacked rows on phones */
-.table-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
-table { border-collapse: collapse; width: 100%; font-size: 0.9375rem; }
-th, td { text-align: left; padding: 13px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
-th { font-size: 0.8125rem; font-weight: 600; color: var(--subtle); background: var(--surface-2); }
-tbody tr:last-child td { border-bottom: none; }
-.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
-td.date { white-space: nowrap; color: var(--muted); }
-.chan { display: block; font-size: 0.75rem; color: var(--subtle); }
-td.pick { font-weight: 600; min-width: 14em; }
-td.event { color: var(--muted); min-width: 12em; }
-tr.withdrawn td.pick { text-decoration: line-through; text-decoration-color: var(--subtle); }
-@media (max-width: 760px) {
-  table, tbody { display: block; }
-  thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  tbody tr { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 12px; padding: 16px;
-             border-bottom: 1px solid var(--line); }
-  tbody tr:last-child { border-bottom: none; }
-  td { display: block; padding: 0; border: none; }
-  td.date, td.pick, td.event { grid-column: 1 / -1; min-width: 0; }
-  td.date { font-size: 0.8125rem; display: flex; gap: 8px; }
-  td.date .chan { display: inline; font-size: inherit; }
-  td.date .chan::before { content: "·"; margin-right: 8px; }
-  td.pick { margin-top: 4px; }
-  td.event { font-size: 0.875rem; margin: 2px 0 12px; }
-  td.num { text-align: left; white-space: normal; }
-  td.num::before { content: attr(data-label); display: block; font-size: 0.75rem; color: var(--subtle); margin-bottom: 2px; }
-  tr.empty td { grid-column: 1 / -1; }
-}
-
-/* How it works */
-.steps { display: grid; gap: 16px; counter-reset: step; }
-@media (min-width: 760px) { .steps { grid-template-columns: repeat(3, 1fr); } }
-.step { counter-increment: step; }
-.step::before { content: counter(step); display: block; font-family: var(--display); font-weight: 700;
-                font-size: 2.6rem; line-height: 1; color: var(--teal); margin-bottom: 14px; }
-.step p { margin: 8px 0 0; color: var(--muted); }
-
-/* What we don't promise */
-.honest { display: grid; gap: 16px; }
-@media (min-width: 760px) { .honest { grid-template-columns: repeat(3, 1fr); } }
-.honest .card { background: var(--surface-2); box-shadow: none; }
-.honest p { margin: 8px 0 0; color: var(--muted); }
-
-/* Join */
-.join { background: #0f172a; color: #f1f5f9; border-top: none;
-        --text: #f8fafc; --bg: #0f172a; --surface: rgba(255, 255, 255, 0.06); --surface-2: rgba(255, 255, 255, 0.1);
-        --line: rgba(255, 255, 255, 0.14); --muted: #cbd5e1; --subtle: #94a3b8; --teal-ink: #5eead4; --shadow: none; }
-@media (prefers-color-scheme: dark) { .join { background: #0b1222; } }
-.join .section-head p { color: var(--muted); }
-.tiles { display: grid; gap: 16px; }
-@media (min-width: 760px) { .tiles { grid-template-columns: 1fr 1fr; } }
-.tile { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(18px, 3vw, 26px);
-        display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
-.tile p { margin: 0 0 8px; color: var(--muted); flex: 1; }
-.alt { margin: 20px 0 0; color: var(--muted); }
-.rules { margin: 28px 0 0; font-size: 0.875rem; color: var(--subtle); }
-
-/* Footer */
-footer { padding-block: 40px calc(48px + env(safe-area-inset-bottom)); font-size: 0.875rem; color: var(--subtle); border-top: 1px solid var(--line); }
-.foot-brand { display: flex; align-items: center; gap: 10px; color: var(--text); margin-bottom: 18px; }
-.mark { height: 18px; width: auto; }
-.foot-brand span { font-family: var(--display); font-weight: 700; font-size: 1.125rem; letter-spacing: -0.01em; }
-footer p { margin: 8px 0; max-width: 60em; }
-footer a { color: var(--muted); }
-</style>
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
-  <a class="brand" href="#" aria-label="Beat the Close, home"><svg class="logo" role="img" aria-label="Beat the Close" xmlns="http://www.w3.org/2000/svg" viewBox="0.0 -117.5 1212.2 135.0" data-w="1212" data-h="135">
+  <a class="brand" href="/" aria-label="Beat the Close, home"><svg class="logo" role="img" aria-label="Beat the Close" xmlns="http://www.w3.org/2000/svg" viewBox="0.0 -117.5 1212.2 135.0" data-w="1212" data-h="135">
 
 <g transform="translate(-16.15 -186.98) scale(0.52083)">
 <mask id="logo-gap" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512"><rect width="512" height="512" fill="#fff"/><path d="M74 368C252 368 222 176 412 176" fill="none" stroke="#000" stroke-width="56" stroke-linecap="round"/></mask>
@@ -236,8 +42,8 @@ footer a { color: var(--muted); }
 <path fill="currentColor" d="M909.89 -101.98Q919.21 -101.98 925.21 -99.22Q931.21 -96.47 935.87 -92.8Q938.7 -90.68 940.18 -92.3Q941.67 -93.93 942.23 -100H945.48Q945.2 -94.52 945.05 -86.65Q944.91 -78.79 944.91 -65.82H941.67Q940.93 -72.32 939.83 -76.94Q938.73 -81.55 936.72 -85.03Q934.72 -88.5 931.04 -91.38Q927.51 -94.89 922.87 -96.61Q918.22 -98.33 913.16 -98.33Q905.56 -98.33 900.2 -94.28Q894.83 -90.23 891.48 -83.35Q888.13 -76.47 886.58 -67.75Q885.03 -59.04 885.03 -49.72Q885.03 -40.23 886.66 -31.54Q888.3 -22.85 891.76 -16.09Q895.22 -9.32 900.7 -5.38Q906.18 -1.44 913.73 -1.44Q918.39 -1.44 923.15 -3.18Q927.91 -4.92 931.27 -8.28Q936.75 -12.54 938.71 -18.87Q940.68 -25.2 941.67 -35.59H944.91Q944.91 -22.15 945.05 -13.88Q945.2 -5.62 945.48 0H942.23Q941.67 -6.07 940.32 -7.63Q938.98 -9.18 935.87 -7.2Q930.65 -3.53 924.79 -0.78Q918.92 1.98 909.74 1.98Q894.8 1.98 883.56 -4.1Q872.31 -10.17 866.1 -21.61Q859.89 -33.05 859.89 -49.15Q859.89 -64.97 866.31 -76.84Q872.74 -88.7 883.98 -95.34Q895.22 -101.98 909.89 -101.98ZM985.56 -110.56V-13.13Q985.56 -7.2 987.61 -5.08Q989.66 -2.97 994.6 -2.97V0Q991.97 -0.14 986.62 -0.35Q981.27 -0.56 975.73 -0.56Q970.27 -0.56 964.64 -0.35Q959.01 -0.14 956.19 0V-2.97Q961.13 -2.97 963.18 -5.08Q965.22 -7.2 965.22 -13.12V-93.63Q965.22 -99.97 963.32 -103.01Q961.42 -106.05 956.19 -106.05V-109.01Q960.7 -108.59 964.94 -108.59Q970.82 -108.59 976 -109.08Q981.18 -109.58 985.56 -110.56ZM1035.82 -75.06Q1046.04 -75.06 1053.8 -71.23Q1061.55 -67.4 1065.99 -58.93Q1070.42 -50.45 1070.42 -36.47Q1070.42 -22.49 1065.99 -14.04Q1061.55 -5.59 1053.8 -1.81Q1046.04 1.98 1035.82 1.98Q1025.73 1.98 1017.91 -1.81Q1010.08 -5.59 1005.65 -14.04Q1001.21 -22.49 1001.21 -36.47Q1001.21 -50.45 1005.65 -58.93Q1010.08 -67.4 1017.91 -71.23Q1025.73 -75.06 1035.82 -75.06ZM1035.82 -72.23Q1030.05 -72.23 1026.3 -63.81Q1022.54 -55.4 1022.54 -36.47Q1022.54 -17.54 1026.3 -9.19Q1030.05 -0.85 1035.82 -0.85Q1041.58 -0.85 1045.34 -9.19Q1049.09 -17.54 1049.09 -36.47Q1049.09 -55.4 1045.34 -63.81Q1041.58 -72.23 1035.82 -72.23ZM1107.06 -75.06Q1113.05 -75.06 1117.47 -73.52Q1121.89 -71.98 1123.9 -70.68Q1128.73 -67.37 1129.8 -74.92H1132.8Q1132.51 -70.88 1132.37 -65.18Q1132.23 -59.49 1132.23 -50.06H1129.24Q1128.56 -55.28 1126.59 -60.31Q1124.63 -65.34 1120.89 -68.64Q1117.15 -71.95 1111.13 -71.95Q1107.03 -71.95 1104.26 -69.58Q1101.5 -67.2 1101.5 -62.85Q1101.5 -58.62 1104.04 -55.41Q1106.58 -52.2 1110.59 -49.34Q1114.6 -46.47 1118.9 -43.19Q1123.67 -39.72 1127.46 -36.27Q1131.24 -32.82 1133.52 -28.71Q1135.79 -24.6 1135.79 -18.98Q1135.79 -12.57 1132.1 -7.85Q1128.42 -3.14 1122.39 -0.58Q1116.35 1.98 1109.01 1.98Q1104.8 1.98 1101.5 1.14Q1098.19 0.31 1095.82 -0.93Q1093.9 -1.89 1092.33 -2.67Q1090.76 -3.45 1089.26 -3.9Q1087.85 -4.35 1086.81 -2.98Q1085.76 -1.61 1085.2 0.99H1082.2Q1082.48 -3.53 1082.63 -10.03Q1082.77 -16.53 1082.77 -27.26H1085.76Q1086.67 -19.6 1088.88 -13.76Q1091.1 -7.91 1095.01 -4.59Q1098.93 -1.27 1104.8 -1.27Q1107.29 -1.27 1109.55 -2.29Q1111.81 -3.31 1113.28 -5.51Q1114.74 -7.71 1114.74 -11.3Q1114.74 -17.51 1110.69 -21.64Q1106.64 -25.76 1100.48 -30.57Q1095.9 -34.24 1091.88 -37.78Q1087.85 -41.33 1085.31 -45.64Q1082.77 -49.94 1082.77 -55.57Q1082.77 -61.92 1086.17 -66.24Q1089.57 -70.56 1095.14 -72.81Q1100.7 -75.06 1107.06 -75.06ZM1180.76 -75.06Q1193.19 -75.06 1200.27 -67.67Q1207.34 -60.28 1207.34 -43.64H1160.87L1160.65 -46.33H1189.55Q1189.74 -53.25 1188.76 -59.11Q1187.77 -64.97 1185.62 -68.5Q1183.47 -72.03 1179.94 -72.03Q1175.05 -72.03 1171.61 -65.83Q1168.16 -59.63 1167.34 -45.25L1167.85 -44.35Q1167.65 -42.66 1167.6 -40.79Q1167.54 -38.93 1167.54 -36.98Q1167.54 -27.2 1170.27 -21.13Q1172.99 -15.06 1177.24 -12.34Q1181.5 -9.63 1185.93 -9.63Q1188.81 -9.63 1191.99 -10.51Q1195.17 -11.38 1198.42 -13.86Q1201.67 -16.33 1204.49 -20.96L1207.06 -20Q1205.42 -14.75 1201.76 -9.65Q1198.11 -4.55 1192.4 -1.29Q1186.69 1.98 1178.78 1.98Q1169.29 1.98 1161.93 -2.09Q1154.57 -6.16 1150.39 -14.55Q1146.21 -22.94 1146.21 -35.79Q1146.21 -48.9 1150.68 -57.61Q1155.14 -66.33 1162.98 -70.69Q1170.82 -75.06 1180.76 -75.06Z"/>
 </svg></a>
   <nav class="site-nav" aria-label="Sections">
-    <a class="link" href="#record">Record</a><a class="link" href="#recent">Recent picks</a><a class="link" href="#how">How it works</a>
-    <a class="btn primary small" href="#join">Join free</a>
+    <a class="link" href="/#record">Record</a><a class="link" href="/#recent">Recent picks</a><a class="link" href="/#how">How it works</a>
+    <a class="btn primary small" href="/#join">Join free</a>
   </nav>
 </div></header>
 
@@ -257,7 +63,7 @@ footer a { color: var(--muted); }
   <section id="record"><div class="wrap">
     <div class="section-head">
       <h2>The record</h2>
-      <p>Every posted pick, graded against the closing price once its game starts. Updated Tue 13 Oct 2026, 15:06, UK time.</p>
+      <p>Every posted pick, graded against the closing price once its game starts. Updated Tue 13 Oct 2026, 15:13, UK time.</p>
     </div>
     <div class="cards"><article class="card record-card"><div class="card-head"><h3>UK picks</h3><span class="since">Since 11 October 2026</span></div><p class="big">+3.1%<span>average vs the close</span></p><div class="meter" role="img" aria-label="80% of graded picks beat the closing price"><span style="width:80%"></span></div><p class="sub">32 of 40 picks beat the closing price</p><ul class="bands"><li><span class="dot green" aria-hidden="true"></span>Green: 12/15 beat the close · avg +4.8%</li><li><span class="dot amber" aria-hidden="true"></span>Amber: 20/25 beat the close · avg +2.1%</li><li class="muted">1 withdrawn after posting, not counted</li></ul><p class="past">Past picks like these: +2.5% vs the closing price over 496 picks since August, graded at Pinnacle&#x27;s close or Betfair&#x27;s (odds up to 4.0).</p></article><article class="card record-card"><div class="card-head"><h3>NFL props</h3><span class="since">Since 11 October 2026</span></div><p class="big">+3.2%<span>average vs the close</span></p><div class="meter" role="img" aria-label="100% of graded picks beat the closing price"><span style="width:100%"></span></div><p class="sub">13 of 13 picks beat the closing price</p><ul class="bands"><li><span class="dot green" aria-hidden="true"></span>Green: 1/1 beat the close · avg +3.5%</li><li><span class="dot amber" aria-hidden="true"></span>Amber: 12/12 beat the close · avg +3.2%</li></ul><p class="past">Since 13 Oct, a pick must beat both Pinnacle and the exchanges. Replayed on the 2025 season, that rule beat the closing price by 2.9% or more over 650 NFL props, graded at either; we&#x27;re confirming it live.</p></article></div>
   </div></section>
@@ -312,7 +118,7 @@ footer a { color: var(--muted); }
       <p>Free during our trial, until 22 November 2026. No payment details, nothing to cancel.</p>
     </div>
     <div class="tiles"><div class="tile"><h3>UK picks</h3><p>Bookmaker prices across football and other sports, at odds up to 4.0.</p><a class="btn primary" href="https://t.me/+t6P7BA5DvUY2Y2Q8" rel="noopener">Join on Telegram</a></div><div class="tile"><h3>NFL props</h3><p>Player props at US sportsbooks. Props are posted in the 6½ hours before each game, so most arrive on Thursday, Sunday and Monday.</p><a class="btn primary" href="https://t.me/+v_nTTCn0uIU0NDE0" rel="noopener">Join on Telegram</a></div><p class="alt">Prefer Discord? One server, both channels: <a href="https://discord.gg/E3mRSd9egq" rel="noopener">join on Discord</a>.</p></div>
-    <p class="rules">18+ only (21+ for NFL props), and betting must be legal where you live. Please read the <a href="https://telegra.ph/Beat-the-Close---Terms-disclaimer-and-privacy-10-12">Terms, disclaimer and privacy</a> first.</p>
+    <p class="rules">18+ only (21+ for NFL props), and betting must be legal where you live. Please read the <a href="/terms/">Terms, disclaimer and privacy</a> first.</p>
   </div></section>
 </main>
 
@@ -326,7 +132,7 @@ footer a { color: var(--muted); }
   <p><strong>18+</strong> (21+ for NFL props). If gambling stops being fun, stop. UK: <a href="https://www.begambleaware.org">BeGambleAware.org</a>
      · National Gambling Helpline 0808 8020 133 · <a href="https://www.gamstop.co.uk">GAMSTOP</a> · US: 1-800-GAMBLER</p>
   <p>Beat the Close publishes betting information. We are not a bookmaker and are not affiliated with any bookmaker.
-     <a href="https://telegra.ph/Beat-the-Close---Terms-disclaimer-and-privacy-10-12">Terms, disclaimer and privacy</a> · <a href="mailto:hello@beattheclose.co.uk">hello@beattheclose.co.uk</a></p>
+     <a href="/terms/">Terms, disclaimer and privacy</a> · <a href="mailto:hello@beattheclose.co.uk">hello@beattheclose.co.uk</a></p>
 </div></footer>
 </body>
 </html>
