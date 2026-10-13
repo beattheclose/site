@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<title>Beat the Close</title>
+<style>.m{stroke:#0F172A}.d{fill:#0F172A}@media (prefers-color-scheme:dark){.m{stroke:#fff}.d{fill:#fff}}</style>
+<path class="m" d="M40 400C230 400 222 150 400 150" fill="none" stroke-width="64" stroke-linecap="round"/>
+<circle class="d" cx="400" cy="150" r="62"/>
+</svg>
