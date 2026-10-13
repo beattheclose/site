@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>Some UK bookmakers price NHL totals as if overtime doesn&#x27;t count · Beat the Close</title>
-<meta name="description" content="Price data suggests several UK bookmakers settle NHL goal totals on 60 minutes, so an Over 6.5 that looks like value against Pinnacle is often the correct price for a different bet.">
+<title>The NHL overtime trap: two different bets under one name · Beat the Close</title>
+<meta name="description" content="In odds data, a 60-minute NHL goals total can appear under the same name as one that includes overtime. Side by side, a fairly priced Over 6.5 looks like value when it isn&#x27;t. How we caught it, and how to check.">
 <meta name="robots" content="index, follow">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
@@ -19,15 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Beat the Close">
 <meta property="og:url" content="https://beattheclose.co.uk/research/nhl-overtime-totals/">
-<meta property="og:title" content="Some UK bookmakers price NHL totals as if overtime doesn&#x27;t count · Beat the Close">
-<meta property="og:description" content="Price data suggests several UK bookmakers settle NHL goal totals on 60 minutes, so an Over 6.5 that looks like value against Pinnacle is often the correct price for a different bet.">
+<meta property="og:title" content="The NHL overtime trap: two different bets under one name · Beat the Close">
+<meta property="og:description" content="In odds data, a 60-minute NHL goals total can appear under the same name as one that includes overtime. Side by side, a fairly priced Over 6.5 looks like value when it isn&#x27;t. How we caught it, and how to check.">
 <meta property="og:image" content="https://beattheclose.co.uk/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Beat the Close: every pick graded against the closing line, in public.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="/style.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Some UK bookmakers price NHL totals as if overtime doesn't count", "description": "Price data suggests several UK bookmakers settle NHL goal totals on 60 minutes, so an Over 6.5 that looks like value against Pinnacle is often the correct price for a different bet.", "datePublished": "2026-10-13", "dateModified": "2026-10-13", "mainEntityOfPage": "https://beattheclose.co.uk/research/nhl-overtime-totals/", "image": "https://beattheclose.co.uk/og-image.png", "author": {"@type": "Organization", "@id": "https://beattheclose.co.uk/#org", "name": "Beat the Close", "url": "https://beattheclose.co.uk/", "logo": "https://beattheclose.co.uk/logo.png", "email": "support@beattheclose.co.uk", "sameAs": ["https://x.com/BeatTheCloseUK", "https://www.instagram.com/beattheclose/"]}, "publisher": {"@type": "Organization", "@id": "https://beattheclose.co.uk/#org", "name": "Beat the Close", "url": "https://beattheclose.co.uk/", "logo": "https://beattheclose.co.uk/logo.png", "email": "support@beattheclose.co.uk", "sameAs": ["https://x.com/BeatTheCloseUK", "https://www.instagram.com/beattheclose/"]}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "The NHL overtime trap: two different bets under one name", "description": "In odds data, a 60-minute NHL goals total can appear under the same name as one that includes overtime. Side by side, a fairly priced Over 6.5 looks like value when it isn't. How we caught it, and how to check.", "datePublished": "2026-10-13", "dateModified": "2026-10-13", "mainEntityOfPage": "https://beattheclose.co.uk/research/nhl-overtime-totals/", "image": "https://beattheclose.co.uk/og-image.png", "author": {"@type": "Organization", "@id": "https://beattheclose.co.uk/#org", "name": "Beat the Close", "url": "https://beattheclose.co.uk/", "logo": "https://beattheclose.co.uk/logo.png", "email": "support@beattheclose.co.uk", "sameAs": ["https://x.com/BeatTheCloseUK", "https://www.instagram.com/beattheclose/"]}, "publisher": {"@type": "Organization", "@id": "https://beattheclose.co.uk/#org", "name": "Beat the Close", "url": "https://beattheclose.co.uk/", "logo": "https://beattheclose.co.uk/logo.png", "email": "support@beattheclose.co.uk", "sameAs": ["https://x.com/BeatTheCloseUK", "https://www.instagram.com/beattheclose/"]}}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -53,22 +53,25 @@
 
 <main id="main">
   <article class="wrap"><div class="prose">
-<h1>Some UK bookmakers price NHL totals as if overtime doesn't count</h1>
+<h1>The NHL overtime trap: two different bets under one name</h1>
 <p class="updated">Beat the Close · Published 13 October 2026</p>
-<p class="lede">Our odds scanner kept flagging NHL <strong>Over 6.5</strong> goals at Casumo, Grosvenor, LiveScore Bet and Virgin Bet as value against Pinnacle. It was always the over, never the under, and the gap never closed by puck drop. That pattern usually means the two books are pricing different bets, so we tested it.</p>
+<p class="lede">Our odds scanner kept flagging NHL <strong>Over 6.5</strong> goals at Casumo, Grosvenor, LiveScore Bet and Virgin Bet as value against Pinnacle. It was always the over, never the under, and the gap never closed by puck drop. That pattern usually means you're comparing two different bets, so we tested it.</p>
+<h2>Two versions of one market</h2>
+<p>UK bookmakers offer NHL goal totals in two versions, <strong>regular time</strong> (60 minutes) and <strong>including overtime</strong>, and they label them. Pinnacle's main line includes overtime. In the odds data we compare, both versions can arrive under the same market name, so the data alone doesn't tell you which one a bookmaker's line is.</p>
 <h2>The test</h2>
-<p>A game that's level after 60 minutes always has an even number of goals, and overtime adds exactly one. So on the 5.5 and 7.5 lines, "60 minutes" and "including overtime" settle the same. On 4.5, 6.5 and 8.5 they don't. If a book settles on 60 minutes, its price should match Pinnacle's on 5.5 and 7.5 and look generous on 6.5.</p>
+<p>A game that's level after 60 minutes always has an even number of goals, and overtime adds exactly one. So on the 5.5 and 7.5 lines, "60 minutes" and "including overtime" settle the same. On 4.5, 6.5 and 8.5 they don't. If a line is the 60-minute version, its price should match Pinnacle's on 5.5 and 7.5 and look generous on 6.5.</p>
 <p>We compared each book's margin-free chance of the over with Pinnacle's, at the same moment, over about three weeks of NHL and European ice hockey. The figures are the average difference in percentage points, with the number of games in brackets.</p>
 <div class="table-wrap"><table><thead><tr><th scope="col">Book</th><th scope="col">5.5 / 7.5 lines</th><th scope="col">4.5 / 6.5 / 8.5 lines</th></tr></thead><tbody><tr><td>Casumo</td><td>−0.2 (44 games)</td><td><strong>−7.4</strong> (45)</td></tr><tr><td>Grosvenor</td><td>−0.5 (63)</td><td><strong>−8.3</strong> (65)</td></tr><tr><td>LiveScore Bet</td><td>0.0 (19)</td><td><strong>−7.5</strong> (20)</td></tr><tr><td>Virgin Bet</td><td>−0.1 (19)</td><td><strong>−7.5</strong> (21)</td></tr><tr><td>Unibet</td><td>−0.7 (67)</td><td><strong>−8.7</strong> (69)</td></tr><tr><td>Coral</td><td>–</td><td>+0.1 (36)</td></tr><tr><td>Ladbrokes</td><td>–</td><td>+0.1 (35)</td></tr><tr><td>William Hill</td><td>−1.0 (11)</td><td>−0.6 (18)</td></tr></tbody></table></div>
-<p>The first five match Pinnacle where overtime can't matter, and sit 7 to 9 points lower where it can. That's about how often an NHL game is 3–3 after 60 minutes, the score that decides the 6.5 line. Coral, Ladbrokes and William Hill price like Pinnacle, so they appear to include overtime.</p>
+<p>The first five match Pinnacle where overtime can't matter, and sit 7 to 9 points lower where it can. That's about how often an NHL game is 3–3 after 60 minutes, the score that decides the 6.5 line. So the lines we were comparing from those five books are their 60-minute markets. The Coral, Ladbrokes and William Hill lines price like Pinnacle's, so they appear to include overtime.</p>
 <h2>What it means</h2>
-<p>At those five books, an Over 6.5 that looks a few per cent "too big" is probably the correct price for a 60-minute bet. A game that's 3–3 after 60 minutes and decided in overtime wins at Pinnacle and loses there. Check your bookmaker's ice hockey rules before treating it as value.</p>
-<h2>The same trap elsewhere</h2>
-<p>Match odds in boxing, handball and rugby league are three-way at most UK books (a draw loses), while Pinnacle prices them two-way. Comparing the two makes the UK price look better than it is.</p>
+<p>Nobody priced anything wrong. A 60-minute Over 6.5 should be shorter than one that includes overtime: a game that's 3–3 after 60 minutes and won in overtime wins the overtime bet and loses the 60-minute one. Put the two side by side under one name, and a fairly priced bet looks a few per cent "too big".</p>
+<h2>The lesson for anyone using odds data</h2>
+<p>If you compare prices from a data feed or API, check how each market is settled, not just what it's called:</p>
+<ul><li><strong>Regular time or including overtime.</strong> Ice hockey totals are the clearest case.</li><li><strong>Two-way or three-way.</strong> Match odds in boxing, handball and rugby league are three-way at most UK books (a draw loses), while Pinnacle prices them two-way.</li><li><strong>Read the documentation.</strong> Check the feed's market definitions, and the bookmaker's own label for the market.</li></ul>
 <h2>Caveats</h2>
-<p>This is inferred from prices, not from the bookmakers' rules pages, and it covers about three weeks of data.</p>
+<p>We worked out which version each book's line is from the prices. The sample is about three weeks of NHL and European ice hockey.</p>
 <h2>How we found it</h2>
-<p>We found this while auditing our own picks. We had flagged one of these overs to our members, so we withdrew it publicly. Our scanner now skips markets that settle differently from the sharp reference. See <a href="/how-we-grade/">how we grade every pick</a>.</p>
+<p>We found this while auditing our own picks. We had flagged one of these overs to our members, so we withdrew it publicly. Our scanner now skips comparisons like these, where the two prices settle differently. See <a href="/how-we-grade/">how we grade every pick</a>.</p>
 <aside class="card cta"><h2>Every pick, graded in public</h2><p>Free during our trial, until 22 November 2026. No payment details, nothing to cancel.</p><div class="buttons"><a class="btn primary" href="https://t.me/+t6P7BA5DvUY2Y2Q8" rel="noopener">Join UK picks on Telegram</a><a class="btn " href="https://t.me/+v_nTTCn0uIU0NDE0" rel="noopener">NFL props on Telegram</a><a class="btn " href="https://discord.gg/E3mRSd9egq" rel="noopener">Join on Discord</a></div><p class="note">18+ (21+ for NFL props) · <a href="https://www.begambleaware.org">BeGambleAware.org</a> · Bookmakers may limit winning accounts. Only bet what you can afford to lose.</p></aside>
   </div></article>
 </main>
@@ -79,7 +82,7 @@
 <path d="M74 368C252 368 222 176 412 176" fill="none" stroke="currentColor" stroke-width="30" stroke-linecap="round"/>
 <circle cx="412" cy="176" r="33" fill="currentColor"/>
 </svg><span>Beat the Close</span></div>
-  <p class="guides"><a href="/how-we-grade/">How we grade every pick</a><a href="/closing-line-value/">What is closing line value?</a><a href="/research/nhl-overtime-totals/">NHL totals and overtime</a><a href="https://x.com/BeatTheCloseUK" rel="me noopener">X</a><a href="https://www.instagram.com/beattheclose/" rel="me noopener">Instagram</a></p>
+  <p class="guides"><a href="/how-we-grade/">How we grade every pick</a><a href="/closing-line-value/">What is closing line value?</a><a href="/research/nhl-overtime-totals/">The NHL overtime trap</a><a href="https://x.com/BeatTheCloseUK" rel="me noopener">X</a><a href="https://www.instagram.com/beattheclose/" rel="me noopener">Instagram</a></p>
   <p><strong>18+</strong> (21+ for NFL props). If gambling stops being fun, stop. UK: <a href="https://www.begambleaware.org">BeGambleAware.org</a>
      · National Gambling Helpline 0808 8020 133 · <a href="https://www.gamstop.co.uk">GAMSTOP</a> · US: 1-800-GAMBLER</p>
   <p>Beat the Close publishes betting information. We are not a bookmaker and are not affiliated with any bookmaker.
