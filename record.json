@@ -1,25 +1,25 @@
 {
- "generated_utc": "2026-10-14T07:02:08.768453+00:00",
+ "generated_utc": "2026-10-14T17:19:57.818813+00:00",
  "streams": {
   "uk": {
    "total": {
-    "picks": 68,
-    "graded": 68,
-    "beat": 52,
-    "avg_clv": 0.02784723865395928
+    "picks": 76,
+    "graded": 76,
+    "beat": 58,
+    "avg_clv": 0.02796039300923551
    },
    "bands": {
     "GREEN": {
-     "picks": 20,
-     "graded": 20,
-     "beat": 16,
-     "avg_clv": 0.03748927101464009
+     "picks": 22,
+     "graded": 22,
+     "beat": 18,
+     "avg_clv": 0.03550006301228672
     },
     "AMBER": {
-     "picks": 48,
-     "graded": 48,
-     "beat": 36,
-     "avg_clv": 0.023829725170342275
+     "picks": 54,
+     "graded": 54,
+     "beat": 40,
+     "avg_clv": 0.02488867560058502
     }
    },
    "yesterday": {
@@ -77,6 +77,126 @@
   }
  },
  "recent": [
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "Over 3.5 @ 2.18",
+   "event": "FC Viktoria K\u00f6ln 1904 v SG Sonnenhof Gro\u00dfaspach",
+   "price": 2.18,
+   "withdrawn": false,
+   "fair_close": null,
+   "clv": null,
+   "close_status": null
+  },
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "Nybro Vikings IF to win @ 11/10 (2.10)",
+   "event": "Nybro Vikings IF v IK Oskarshamn",
+   "price": 2.1,
+   "withdrawn": false,
+   "fair_close": null,
+   "clv": null,
+   "close_status": null
+  },
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Feyenoord to win @ 3.70",
+   "event": "Feyenoord v Como",
+   "price": 3.7,
+   "withdrawn": false,
+   "fair_close": 3.2097861519547455,
+   "clv": 0.15272476882820274,
+   "close_status": "same_line"
+  },
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Draw @ 3/1 (4.00)",
+   "event": "Feyenoord v Como",
+   "price": 4.0,
+   "withdrawn": false,
+   "fair_close": 3.7961107318380183,
+   "clv": 0.053710042347279385,
+   "close_status": "same_line"
+  },
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Hapoel Tel Aviv -6.5 @ Evens (2.00)",
+   "event": "Hapoel Tel Aviv v Be\u015fikta\u015f J.K.",
+   "price": 2.0,
+   "withdrawn": false,
+   "fair_close": 1.9528459908061384,
+   "clv": 0.0241463020718784,
+   "close_status": "same_line"
+  },
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "\u00c4ss\u00e4t to win @ 4/5 (1.80)",
+   "event": "KalPa v \u00c4ss\u00e4t",
+   "price": 1.8,
+   "withdrawn": false,
+   "fair_close": 1.907667125739937,
+   "clv": -0.05643915769538432,
+   "close_status": "same_line"
+  },
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Daniil Medvedev to win @ 8/15 (1.53)",
+   "event": "Daniil Medvedev v Stefanos Tsitsipas",
+   "price": 1.53,
+   "withdrawn": false,
+   "fair_close": 1.485426984886834,
+   "clv": 0.030006870459918122,
+   "close_status": "same_line"
+  },
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Doosan Bears -1.5 @ 6/5 (2.20)",
+   "event": "LG Twins v Doosan Bears",
+   "price": 2.2,
+   "withdrawn": false,
+   "fair_close": 2.2088068481047034,
+   "clv": -0.0039871517567323655,
+   "close_status": "same_line"
+  },
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "Doosan Bears to win @ 4/6 (1.67)",
+   "event": "LG Twins v Doosan Bears",
+   "price": 1.67,
+   "withdrawn": false,
+   "fair_close": 1.6542798150067335,
+   "clv": 0.009502736387557498,
+   "close_status": "same_line"
+  },
+  {
+   "date": "Wed 14 Oct",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "Under 4.5 @ 2.06",
+   "event": "Hanshin Tigers v Yokohama DeNA BayStars",
+   "price": 2.06,
+   "withdrawn": false,
+   "fair_close": 2.0162213234987223,
+   "clv": 0.02171322958994848,
+   "close_status": "same_line"
+  },
   {
    "date": "Wed 14 Oct",
    "stream": "uk",
@@ -255,126 +375,6 @@
    "withdrawn": false,
    "fair_close": 1.8563262038495318,
    "clv": -0.05727775841823446,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Wed 14 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Draw @ 43/20 (3.15)",
-   "event": "Boca Juniors v Vasco da Gama",
-   "price": 3.15,
-   "withdrawn": false,
-   "fair_close": 3.0564587845348044,
-   "clv": 0.030604441956979533,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Wed 14 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Tampa Bay Rays -1.5 @ 2.80",
-   "event": "Tampa Bay Rays v Cleveland Guardians",
-   "price": 2.8,
-   "withdrawn": false,
-   "fair_close": 2.6856839918289706,
-   "clv": 0.042564951244758786,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Wed 14 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Indiana Pacers to win @ 4.00",
-   "event": "Oklahoma City Thunder v Indiana Pacers",
-   "price": 4.0,
-   "withdrawn": false,
-   "fair_close": 3.0818492149660015,
-   "clv": 0.29792203349057345,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Wed 14 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Davi Cabral to win @ 2.60",
-   "event": "Davi Cabral v Douglas da Lapa",
-   "price": 2.6,
-   "withdrawn": false,
-   "fair_close": 2.5387878953265486,
-   "clv": 0.024110759621208233,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Wed 14 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "St Louis Blues to win @ 10/11 (1.91)",
-   "event": "Ottawa Senators v St Louis Blues",
-   "price": 1.91,
-   "withdrawn": false,
-   "fair_close": 1.8600142339856311,
-   "clv": 0.02687386209258169,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Wed 14 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Toronto Raptors -10.5 @ 2.07",
-   "event": "Toronto Raptors v New York Knicks",
-   "price": 2.07,
-   "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null
-  },
-  {
-   "date": "Wed 14 Oct",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "Toronto Raptors -11.5 @ 2.17",
-   "event": "Toronto Raptors v New York Knicks",
-   "price": 2.17,
-   "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null
-  },
-  {
-   "date": "Wed 14 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Orlando Magic to win @ 2.20",
-   "event": "Orlando Magic v Cleveland Cavaliers",
-   "price": 2.2,
-   "withdrawn": false,
-   "fair_close": 2.126160574567214,
-   "clv": 0.03472899757245118,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Wed 14 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Over 229.5 @ 2.02",
-   "event": "Orlando Magic v Cleveland Cavaliers",
-   "price": 2.02,
-   "withdrawn": false,
-   "fair_close": 1.9319262618832174,
-   "clv": 0.045588560937584344,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Tue 13 Oct",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "Londrina to win @ 3.95",
-   "event": "Athletic Club (MG) v Londrina",
-   "price": 3.95,
-   "withdrawn": false,
-   "fair_close": 4.34495306932614,
-   "clv": -0.09089927164331679,
    "close_status": "same_line"
   }
  ]
