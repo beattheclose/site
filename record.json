@@ -1,381 +1,427 @@
 {
- "generated_utc": "2026-10-16T07:02:22.584214+00:00",
+ "generated_utc": "2026-10-17T07:02:22.131547+00:00",
  "streams": {
   "uk": {
+   "since": null,
    "total": {
-    "picks": 140,
-    "graded": 140,
-    "beat": 106,
-    "avg_clv": 0.02867044474596668
+    "picks": 217,
+    "graded": 184,
+    "no_close": 33,
+    "beat": 136,
+    "avg_clv": 0.030879272178647724
    },
+   "awaiting": 0,
    "bands": {
     "GREEN": {
-     "picks": 33,
-     "graded": 33,
-     "beat": 27,
-     "avg_clv": 0.036426801285976876
+     "picks": 51,
+     "graded": 45,
+     "no_close": 6,
+     "beat": 37,
+     "avg_clv": 0.048568714868963726
     },
     "AMBER": {
-     "picks": 107,
-     "graded": 107,
-     "beat": 79,
-     "avg_clv": 0.026278297401851388
+     "picks": 166,
+     "graded": 139,
+     "no_close": 27,
+     "beat": 99,
+     "avg_clv": 0.025152474185379952
     }
    },
    "yesterday": {
     "GREEN": {
-     "picks": 7,
-     "graded": 7,
-     "beat": 6,
-     "avg_clv": 0.04648853986189096
+     "picks": 11,
+     "graded": 11,
+     "no_close": 0,
+     "beat": 9,
+     "avg_clv": 0.0540820410083871
     },
     "AMBER": {
-     "picks": 37,
-     "graded": 37,
-     "beat": 26,
-     "avg_clv": 0.023996351608925624
+     "picks": 35,
+     "graded": 27,
+     "no_close": 8,
+     "beat": 20,
+     "avg_clv": 0.02486479075956158
     }
    },
    "withdrawn": 1
   },
   "us_props": {
+   "since": "13 October 2026",
    "total": {
-    "picks": 13,
-    "graded": 13,
-    "beat": 13,
-    "avg_clv": 0.03201944399864949
+    "picks": 0,
+    "graded": 0,
+    "no_close": 0,
+    "beat": 0,
+    "avg_clv": null
    },
+   "awaiting": 0,
    "bands": {
     "GREEN": {
-     "picks": 1,
-     "graded": 1,
-     "beat": 1,
-     "avg_clv": 0.03460374049504056
+     "picks": 0,
+     "graded": 0,
+     "no_close": 0,
+     "beat": 0,
+     "avg_clv": null
     },
     "AMBER": {
-     "picks": 12,
-     "graded": 12,
-     "beat": 12,
-     "avg_clv": 0.03180408595728357
+     "picks": 0,
+     "graded": 0,
+     "no_close": 0,
+     "beat": 0,
+     "avg_clv": null
     }
    },
    "yesterday": {
     "GREEN": {
      "picks": 0,
      "graded": 0,
+     "no_close": 0,
      "beat": 0,
      "avg_clv": null
     },
     "AMBER": {
      "picks": 0,
      "graded": 0,
+     "no_close": 0,
      "beat": 0,
      "avg_clv": null
     }
    },
-   "withdrawn": 0
+   "withdrawn": 0,
+   "earlier_rule": {
+    "picks": 13,
+    "graded": 13,
+    "no_close": 0,
+    "beat": 13,
+    "avg_clv": 0.03201944399864949
+   }
   }
  },
  "recent": [
   {
-   "date": "Fri 16 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Casper Ruud to win @ 5/4 (2.25)",
-   "event": "Rafael Jodar v Casper Ruud",
+   "pick": "Macarthur FC to win @ 21/20 (2.05)",
+   "event": "Macarthur FC v Perth Glory",
+   "price": 2.05,
+   "withdrawn": false,
+   "fair_close": 2.072229864040142,
+   "clv": -0.01072750877009454,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sat 17 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Kawasaki Frontale to win @ 5/4 (2.25)",
+   "event": "Cerezo Osaka v Kawasaki Frontale",
    "price": 2.25,
    "withdrawn": false,
-   "fair_close": 2.217277872703563,
-   "clv": 0.014757792741844522,
-   "close_status": "same_line"
+   "fair_close": 2.2685666874339048,
+   "clv": -0.008184325167406303,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Fri 16 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Rafael Jodar to win @ 7/8 (1.87)",
-   "event": "Rafael Jodar v Casper Ruud",
-   "price": 1.87,
+   "pick": "Alejandro Davidovich Fokina +3.5 @ 19/20 (1.95)",
+   "event": "Alexander Zverev v Alejandro Davidovich Fokina",
+   "price": 1.95,
    "withdrawn": false,
-   "fair_close": 1.8215051159839202,
-   "clv": 0.02662352336566709,
-   "close_status": "same_line"
+   "fair_close": 1.9292025327490347,
+   "clv": 0.010780344156675836,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Fri 16 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Maja Chwalinska to win @ 13/10 (2.30)",
-   "event": "Maja Chwalinska v Maria Sakkari",
-   "price": 2.3,
-   "withdrawn": false,
-   "fair_close": 2.188853604204844,
-   "clv": 0.050778359768620884,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "Calgary Flames +1.5 @ 23/20 (2.15)",
-   "event": "Vegas Golden Knights v Calgary Flames",
-   "price": 2.15,
-   "withdrawn": false,
-   "fair_close": 1.9740295603474525,
-   "clv": 0.08914275813659778,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Houston Rockets to win @ 9/5 (2.80)",
-   "event": "Houston Rockets v Oklahoma City Thunder",
-   "price": 2.8,
-   "withdrawn": false,
-   "fair_close": 2.335514120085424,
-   "clv": 0.19887949977266106,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Flamengo-RJ to win @ 2.16",
-   "event": "Estudiantes La Plata v Flamengo-RJ",
-   "price": 2.16,
-   "withdrawn": false,
-   "fair_close": 2.2343207496528974,
-   "clv": -0.03326324103844225,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Over 7.5 @ Evens (2.00)",
-   "event": "Los Angeles Dodgers v Milwaukee Brewers",
-   "price": 2.0,
-   "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Over 69.5 @ 1.96",
-   "event": "Texas State Bobcats v Colorado State Rams",
-   "price": 1.96,
-   "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Toronto Raptors to win @ 2/1 (3.00)",
-   "event": "New York Knicks v Toronto Raptors",
-   "price": 3.0,
-   "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "New York Knicks -5.5 @ 2.02",
-   "event": "New York Knicks v Toronto Raptors",
-   "price": 2.02,
-   "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Vancouver Canucks +1.5 @ 11/10 (2.10)",
-   "event": "Florida Panthers v Vancouver Canucks",
-   "price": 2.1,
-   "withdrawn": false,
-   "fair_close": 2.0266628865383542,
-   "clv": 0.036186143215416244,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Seattle Kraken +1.5 @ Evens (2.00)",
-   "event": "Tampa Bay Lightning v Seattle Kraken",
-   "price": 2.0,
-   "withdrawn": false,
-   "fair_close": 1.9687684717297302,
-   "clv": 0.01586348456851816,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Tampa Bay Lightning -1.5 @ 2.04",
-   "event": "Tampa Bay Lightning v Seattle Kraken",
-   "price": 2.04,
-   "withdrawn": false,
-   "fair_close": 2.0322383822158314,
-   "clv": 0.0038192457401113877,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Fri 16 Oct",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "Draw @ 3.00",
-   "event": "Atl\u00e9tico Hurac\u00e1n v Gimnasia La Plata",
-   "price": 3.0,
-   "withdrawn": false,
-   "fair_close": 3.2613534543557283,
-   "clv": -0.08013650099981506,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Thu 15 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Anderlecht to win @ 4.00",
-   "event": "Dinamo Zagreb v Anderlecht",
+   "pick": "Alejandro Davidovich Fokina to win @ 3/1 (4.00)",
+   "event": "Alexander Zverev v Alejandro Davidovich Fokina",
    "price": 4.0,
    "withdrawn": false,
-   "fair_close": 4.339384074582124,
-   "clv": -0.07821019498367554,
-   "close_status": "same_line"
+   "fair_close": 4.540810157605597,
+   "clv": -0.11909992684890613,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Thu 15 Oct",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "Draw @ 3.50",
-   "event": "FC Copenhagen v SC Braga",
-   "price": 3.5,
-   "withdrawn": false,
-   "fair_close": 3.381428499052998,
-   "clv": 0.035065505889066984,
-   "close_status": "same_line"
-  },
-  {
-   "date": "Thu 15 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "FC Nordsjaelland to win @ 2.25",
-   "event": "Hearts v FC Nordsjaelland",
-   "price": 2.25,
+   "pick": "Denver Nuggets to win @ 41/20 (3.05)",
+   "event": "Los Angeles Lakers v Denver Nuggets",
+   "price": 3.05,
    "withdrawn": false,
-   "fair_close": 2.49095953098512,
-   "clv": -0.09673361930927304,
-   "close_status": "same_line"
+   "fair_close": 2.408931448910438,
+   "clv": 0.2661215417232057,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Thu 15 Oct",
+   "date": "Sat 17 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Golden State Warriors to win @ 2.43",
+   "event": "Golden State Warriors v Portland Trail Blazers",
+   "price": 2.43,
+   "withdrawn": false,
+   "fair_close": 2.0967062556835456,
+   "clv": 0.15896062856348836,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "GREEN",
-   "pick": "ASVEL Lyon Villeurbanne +12.5 @ 11/10 (2.10)",
-   "event": "Real Madrid v ASVEL Lyon Villeurbanne",
+   "pick": "Under 225.5 @ 2.23",
+   "event": "Phoenix Suns v Utah Jazz",
+   "price": 2.23,
+   "withdrawn": false,
+   "fair_close": 2.0559766143990315,
+   "clv": 0.08464268726706115,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sat 17 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Portland Trail Blazers -2.5 @ 11/10 (2.10)",
+   "event": "Golden State Warriors v Portland Trail Blazers",
    "price": 2.1,
    "withdrawn": false,
    "fair_close": null,
    "clv": null,
-   "close_status": null
+   "close_status": null,
+   "no_close": true
   },
   {
-   "date": "Thu 15 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
-   "band": "AMBER",
-   "pick": "Draw @ 14/5 (3.80)",
-   "event": "Marseille v Olympiakos Piraeus",
-   "price": 3.8,
+   "band": "GREEN",
+   "pick": "Atlas to win @ 3.00",
+   "event": "Necaxa v Atlas",
+   "price": 3.0,
    "withdrawn": false,
-   "fair_close": 3.5340557809401187,
-   "clv": 0.07525184534272844,
-   "close_status": "same_line"
+   "fair_close": 2.1170095487448073,
+   "clv": 0.4170932775332663,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Thu 15 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Over 3.5 @ 11/10 (2.10)",
-   "event": "Benfica v Celtic",
-   "price": 2.1,
+   "pick": "Rene Tellez Giron to win @ 1.98",
+   "event": "Justin Pauldo v Rene Tellez Giron",
+   "price": 1.98,
    "withdrawn": false,
    "fair_close": null,
    "clv": null,
-   "close_status": null
+   "close_status": null,
+   "no_close": true
   },
   {
-   "date": "Thu 15 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Draw @ 5/2 (3.50)",
-   "event": "Celta Vigo v Juventus",
-   "price": 3.5,
+   "pick": "Charlotte Hornets to win @ 1.97",
+   "event": "Memphis Grizzlies v Charlotte Hornets",
+   "price": 1.97,
    "withdrawn": false,
-   "fair_close": 3.331684757408882,
-   "clv": 0.050519558375631046,
-   "close_status": "same_line"
+   "fair_close": 2.313941034954775,
+   "clv": -0.1486386341566811,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Thu 15 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Celta Vigo to win @ 27/10 (3.70)",
-   "event": "Celta Vigo v Juventus",
-   "price": 3.7,
+   "pick": "Memphis Grizzlies to win @ 11/10 (2.10)",
+   "event": "Memphis Grizzlies v Charlotte Hornets",
+   "price": 2.1,
    "withdrawn": false,
-   "fair_close": 3.6716537081885305,
-   "clv": 0.007720306451627357,
-   "close_status": "same_line"
+   "fair_close": 1.7610691601807074,
+   "clv": 0.19245742727361947,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Thu 15 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Pallacanestro Olimpia Milano to win @ 6/5 (2.20)",
-   "event": "Pallacanestro Olimpia Milano v Dubai Basketball",
-   "price": 2.2,
+   "pick": "New Orleans Pelicans to win @ 2.08",
+   "event": "New Orleans Pelicans v Washington Wizards",
+   "price": 2.08,
    "withdrawn": false,
-   "fair_close": 2.1732921007524353,
-   "clv": 0.01228914384693991,
-   "close_status": "same_line"
+   "fair_close": 1.905617600822596,
+   "clv": 0.09150964973357123,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Thu 15 Oct",
+   "date": "Sat 17 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Washington Wizards to win @ 1.98",
+   "event": "New Orleans Pelicans v Washington Wizards",
+   "price": 1.98,
+   "withdrawn": false,
+   "fair_close": 2.104218821599397,
+   "clv": -0.059033224265611084,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "GREEN",
-   "pick": "Link\u00f6ping HC to win @ 11/8 (2.37)",
-   "event": "Link\u00f6ping HC v Fr\u00f6lunda HC",
-   "price": 2.37,
+   "pick": "Fortaleza to win @ 9/5 (2.80)",
+   "event": "Sport Recife v Fortaleza",
+   "price": 2.8,
    "withdrawn": false,
-   "fair_close": 2.056717697422972,
-   "clv": 0.15232148922020983,
-   "close_status": "same_line"
+   "fair_close": 3.125434044965789,
+   "clv": -0.10412443208967204,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Thu 15 Oct",
+   "date": "Sat 17 Oct",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Skellefte\u00e5 AIK to win @ 5/6 (1.83)",
-   "event": "V\u00e4xj\u00f6 Lakers v Skellefte\u00e5 AIK",
-   "price": 1.83,
+   "pick": "Toronto Argonauts to win @ 1.24",
+   "event": "Ottawa Redblacks v Toronto Argonauts",
+   "price": 1.24,
    "withdrawn": false,
-   "fair_close": 1.7778086602680712,
-   "clv": 0.029357118624936396,
-   "close_status": "same_line"
+   "fair_close": 1.2115047469154567,
+   "clv": 0.023520545963268802,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sat 17 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Over 224.5 @ 2.07",
+   "event": "Philadelphia 76ers v Boston Celtics",
+   "price": 2.07,
+   "withdrawn": false,
+   "fair_close": null,
+   "clv": null,
+   "close_status": null,
+   "no_close": true
+  },
+  {
+   "date": "Sat 17 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Boston Celtics to win @ 19/10 (2.90)",
+   "event": "Philadelphia 76ers v Boston Celtics",
+   "price": 2.9,
+   "withdrawn": false,
+   "fair_close": 4.359182385967219,
+   "clv": -0.33473763122747946,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sat 17 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Philadelphia 76ers to win @ 1.64",
+   "event": "Philadelphia 76ers v Boston Celtics",
+   "price": 1.64,
+   "withdrawn": false,
+   "fair_close": 1.2976914871242,
+   "clv": 0.2637826604182987,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sat 17 Oct",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "Miami Heat +3.5 @ 2.16",
+   "event": "Orlando Magic v Miami Heat",
+   "price": 2.16,
+   "withdrawn": false,
+   "fair_close": null,
+   "clv": null,
+   "close_status": null,
+   "no_close": true
+  },
+  {
+   "date": "Fri 16 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Atletico Goianiense to win @ 1.32",
+   "event": "Ponte Preta v Atletico Goianiense",
+   "price": 1.32,
+   "withdrawn": false,
+   "fair_close": 1.2895722642941518,
+   "clv": 0.023595215676031067,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Fri 16 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Charles Harris Jr to win @ 19/20 (1.95)",
+   "event": "Charles Harris Jr v Misael Cabrera",
+   "price": 1.95,
+   "withdrawn": false,
+   "fair_close": 1.6349338465045233,
+   "clv": 0.19270880847508653,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Fri 16 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Draw @ 11/5 (3.20)",
+   "event": "Defensa y Justicia v Instituto de C\u00f3rdoba",
+   "price": 3.2,
+   "withdrawn": false,
+   "fair_close": 3.1858732779611882,
+   "clv": 0.004434175752229708,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Fri 16 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Burnley to win @ 43/20 (3.15)",
+   "event": "Burnley v Wolverhampton Wanderers",
+   "price": 3.15,
+   "withdrawn": false,
+   "fair_close": null,
+   "clv": null,
+   "close_status": null,
+   "no_close": true
+  },
+  {
+   "date": "Fri 16 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Levante to win @ 53/20 (3.65)",
+   "event": "Deportivo La Coru\u00f1a v Levante",
+   "price": 3.65,
+   "withdrawn": false,
+   "fair_close": null,
+   "clv": null,
+   "close_status": null,
+   "no_close": true
   }
  ]
 }
