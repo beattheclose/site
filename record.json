@@ -1,30 +1,30 @@
 {
- "generated_utc": "2026-10-30T08:03:23.731009+00:00",
+ "generated_utc": "2026-10-30T13:03:28.116787+00:00",
  "streams": {
   "uk": {
    "since": null,
    "total": {
-    "picks": 938,
-    "graded": 833,
+    "picks": 941,
+    "graded": 836,
     "no_close": 105,
-    "beat": 584,
-    "avg_clv": 0.03078676231680525
+    "beat": 586,
+    "avg_clv": 0.030935781374316518
    },
    "awaiting": 0,
    "bands": {
     "GREEN": {
-     "picks": 243,
-     "graded": 218,
+     "picks": 244,
+     "graded": 219,
      "no_close": 25,
-     "beat": 154,
-     "avg_clv": 0.043188750067270354
+     "beat": 155,
+     "avg_clv": 0.04394160134652205
     },
     "AMBER": {
-     "picks": 695,
-     "graded": 615,
+     "picks": 697,
+     "graded": 617,
      "no_close": 80,
-     "beat": 430,
-     "avg_clv": 0.026390610561355835
+     "beat": 431,
+     "avg_clv": 0.026319453053549883
     }
    },
    "yesterday": {
@@ -95,9 +95,92 @@
     "beat": 13,
     "avg_clv": 0.03201944399864949
    }
+  },
+  "us_soccer": {
+   "since": null,
+   "total": {
+    "picks": 0,
+    "graded": 0,
+    "no_close": 0,
+    "beat": 0,
+    "avg_clv": null
+   },
+   "awaiting": 0,
+   "bands": {
+    "GREEN": {
+     "picks": 0,
+     "graded": 0,
+     "no_close": 0,
+     "beat": 0,
+     "avg_clv": null
+    },
+    "AMBER": {
+     "picks": 0,
+     "graded": 0,
+     "no_close": 0,
+     "beat": 0,
+     "avg_clv": null
+    }
+   },
+   "yesterday": {
+    "GREEN": {
+     "picks": 0,
+     "graded": 0,
+     "no_close": 0,
+     "beat": 0,
+     "avg_clv": null
+    },
+    "AMBER": {
+     "picks": 0,
+     "graded": 0,
+     "no_close": 0,
+     "beat": 0,
+     "avg_clv": null
+    }
+   },
+   "withdrawn": 0
   }
  },
  "recent": [
+  {
+   "date": "Fri 30 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Al-Ittihad to win @ 11/20 (1.55)",
+   "event": "Abha Club v Al-Ittihad",
+   "price": 1.55,
+   "withdrawn": false,
+   "fair_close": 1.4916447820634215,
+   "clv": 0.03912139045319796,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Fri 30 Oct",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "Brisbane Roar to win @ 21/10 (3.10)",
+   "event": "Brisbane Roar v Auckland FC",
+   "price": 3.1,
+   "withdrawn": false,
+   "fair_close": 2.566090955132624,
+   "clv": 0.20806318022339232,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Fri 30 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Tasmania JackJumpers to win @ 21/20 (2.05)",
+   "event": "Tasmania JackJumpers v Sydney Kings",
+   "price": 2.05,
+   "withdrawn": false,
+   "fair_close": 2.1139345808205774,
+   "clv": -0.030244351646756984,
+   "close_status": "same_line",
+   "no_close": false
+  },
   {
    "date": "Fri 30 Oct",
    "stream": "uk",
@@ -381,45 +464,6 @@
    "withdrawn": false,
    "fair_close": 2.123520765717327,
    "clv": -0.03462210820080758,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Thu 29 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Over 3.5 @ 2.07",
-   "event": "Al-Nassr v Al-Kholood",
-   "price": 2.07,
-   "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null,
-   "no_close": true
-  },
-  {
-   "date": "Thu 29 Oct",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "Kalmar FF to win @ 19/10 (2.90)",
-   "event": "Kalmar FF v GAIS",
-   "price": 2.9,
-   "withdrawn": false,
-   "fair_close": 2.438477712284081,
-   "clv": 0.18926655978480067,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Thu 29 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "\u00d6rgryte IS to win @ 27/10 (3.70)",
-   "event": "\u00d6rgryte IS v Mj\u00e4llby AIF",
-   "price": 3.7,
-   "withdrawn": false,
-   "fair_close": 3.4221067459604457,
-   "clv": 0.08120531434841638,
    "close_status": "same_line",
    "no_close": false
   }
