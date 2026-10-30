@@ -1,30 +1,30 @@
 {
- "generated_utc": "2026-10-30T13:03:28.116787+00:00",
+ "generated_utc": "2026-10-30T16:45:17.427702+00:00",
  "streams": {
   "uk": {
    "since": null,
    "total": {
-    "picks": 941,
-    "graded": 836,
+    "picks": 946,
+    "graded": 841,
     "no_close": 105,
-    "beat": 586,
-    "avg_clv": 0.030935781374316518
+    "beat": 591,
+    "avg_clv": 0.031092156317525835
    },
    "awaiting": 0,
    "bands": {
     "GREEN": {
-     "picks": 244,
-     "graded": 219,
+     "picks": 246,
+     "graded": 221,
      "no_close": 25,
-     "beat": 155,
-     "avg_clv": 0.04394160134652205
+     "beat": 157,
+     "avg_clv": 0.04427464660744729
     },
     "AMBER": {
-     "picks": 697,
-     "graded": 617,
+     "picks": 700,
+     "graded": 620,
      "no_close": 80,
-     "beat": 431,
-     "avg_clv": 0.026319453053549883
+     "beat": 434,
+     "avg_clv": 0.026393236391602216
     }
    },
    "yesterday": {
@@ -42,6 +42,13 @@
      "beat": 24,
      "avg_clv": 0.038963427115480426
     }
+   },
+   "yesterday_total": {
+    "picks": 52,
+    "graded": 43,
+    "no_close": 9,
+    "beat": 31,
+    "avg_clv": 0.04282215943195028
    },
    "withdrawn": 15
   },
@@ -87,6 +94,13 @@
      "avg_clv": null
     }
    },
+   "yesterday_total": {
+    "picks": 0,
+    "graded": 0,
+    "no_close": 0,
+    "beat": 0,
+    "avg_clv": null
+   },
    "withdrawn": 0,
    "earlier_rule": {
     "picks": 13,
@@ -97,7 +111,7 @@
    }
   },
   "us_soccer": {
-   "since": null,
+   "since": "30 October 2026",
    "total": {
     "picks": 0,
     "graded": 0,
@@ -138,10 +152,82 @@
      "avg_clv": null
     }
    },
+   "yesterday_total": {
+    "picks": 0,
+    "graded": 0,
+    "no_close": 0,
+    "beat": 0,
+    "avg_clv": null
+   },
    "withdrawn": 0
   }
  },
  "recent": [
+  {
+   "date": "Fri 30 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "RoKi to win @ 23/20 (2.15)",
+   "event": "Kiekko-Vantaa v RoKi",
+   "price": 2.15,
+   "withdrawn": false,
+   "fair_close": 2.0463727265169416,
+   "clv": 0.05063949110553212,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Fri 30 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Hermes to win @ 7/4 (2.75)",
+   "event": "JoKP v Hermes",
+   "price": 2.75,
+   "withdrawn": false,
+   "fair_close": 2.654234011164592,
+   "clv": 0.03608046179522395,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Fri 30 Oct",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Diriyah Club to win @ 13/8 (2.63)",
+   "event": "Diriyah Club v Neom",
+   "price": 2.63,
+   "withdrawn": false,
+   "fair_close": 2.5337575606257507,
+   "clv": 0.037984075852340204,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Fri 30 Oct",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "Taylor Fritz to win @ 2.23",
+   "event": "Taylor Fritz v Arthur Fils",
+   "price": 2.23,
+   "withdrawn": false,
+   "fair_close": 2.0536272305224665,
+   "clv": 0.08588353663028814,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Fri 30 Oct",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "Taylor Fritz +0.5 @ 2.08",
+   "event": "Taylor Fritz v Arthur Fils",
+   "price": 2.08,
+   "withdrawn": false,
+   "fair_close": 1.9337995901974425,
+   "clv": 0.07560266872723376,
+   "close_status": "same_line",
+   "no_close": false
+  },
   {
    "date": "Fri 30 Oct",
    "stream": "uk",
@@ -399,71 +485,6 @@
    "withdrawn": false,
    "fair_close": 2.0,
    "clv": 0.0,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Thu 29 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Fenerbahce SK to win @ 21/10 (3.10)",
-   "event": "Real Madrid v Fenerbahce SK",
-   "price": 3.1,
-   "withdrawn": false,
-   "fair_close": 3.0748532253106475,
-   "clv": 0.008178203265885031,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Thu 29 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Draw @ 13/5 (3.60)",
-   "event": "RS Gimn\u00e1stica v UD Ourense",
-   "price": 3.6,
-   "withdrawn": false,
-   "fair_close": 3.354600128685244,
-   "clv": 0.07315324089340414,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Thu 29 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Paris Basketball to win @ 7/4 (2.75)",
-   "event": "Maccabi Tel Aviv v Paris Basketball",
-   "price": 2.75,
-   "withdrawn": false,
-   "fair_close": 2.5819792702311117,
-   "clv": 0.06507439145855298,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Thu 29 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Draw @ 3/1 (4.00)",
-   "event": "Conquense v Castellonense",
-   "price": 4.0,
-   "withdrawn": false,
-   "fair_close": 3.6598201504226844,
-   "clv": 0.09294988157765816,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Thu 29 Oct",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "HV71 to win @ 21/20 (2.05)",
-   "event": "Djurg\u00e5rdens IF v HV71",
-   "price": 2.05,
-   "withdrawn": false,
-   "fair_close": 2.123520765717327,
-   "clv": -0.03462210820080758,
    "close_status": "same_line",
    "no_close": false
   }
