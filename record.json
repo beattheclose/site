@@ -1,54 +1,54 @@
 {
- "generated_utc": "2026-11-14T08:04:17.665020+00:00",
+ "generated_utc": "2026-11-15T08:04:25.238759+00:00",
  "streams": {
   "uk": {
    "since": null,
    "total": {
-    "picks": 1734,
-    "graded": 1505,
-    "no_close": 229,
-    "beat": 1055,
-    "avg_clv": 0.030505293523122458
+    "picks": 1807,
+    "graded": 1567,
+    "no_close": 240,
+    "beat": 1095,
+    "avg_clv": 0.030622528503170512
    },
    "awaiting": 0,
    "bands": {
     "GREEN": {
-     "picks": 484,
-     "graded": 415,
-     "no_close": 69,
-     "beat": 287,
-     "avg_clv": 0.03569447159450207
+     "picks": 504,
+     "graded": 431,
+     "no_close": 73,
+     "beat": 298,
+     "avg_clv": 0.03642721201696547
     },
     "AMBER": {
-     "picks": 1250,
-     "graded": 1090,
-     "no_close": 160,
-     "beat": 768,
-     "avg_clv": 0.02852959728493664
+     "picks": 1303,
+     "graded": 1136,
+     "no_close": 167,
+     "beat": 797,
+     "avg_clv": 0.02842022340242612
     }
    },
    "yesterday": {
     "GREEN": {
-     "picks": 4,
-     "graded": 4,
-     "no_close": 0,
-     "beat": 2,
-     "avg_clv": -0.004762750530254517
+     "picks": 19,
+     "graded": 15,
+     "no_close": 4,
+     "beat": 11,
+     "avg_clv": 0.056996100716268164
     },
     "AMBER": {
-     "picks": 17,
-     "graded": 11,
-     "no_close": 6,
-     "beat": 8,
-     "avg_clv": 0.06532379915600345
+     "picks": 41,
+     "graded": 34,
+     "no_close": 7,
+     "beat": 23,
+     "avg_clv": 0.010792965325735253
     }
    },
    "yesterday_total": {
-    "picks": 21,
-    "graded": 15,
-    "no_close": 6,
-    "beat": 10,
-    "avg_clv": 0.04663405257300133
+    "picks": 60,
+    "graded": 49,
+    "no_close": 11,
+    "beat": 34,
+    "avg_clv": 0.02493678228202084
    },
    "withdrawn": 15
   },
@@ -80,26 +80,26 @@
    },
    "yesterday": {
     "GREEN": {
-     "picks": 1,
-     "graded": 1,
+     "picks": 0,
+     "graded": 0,
      "no_close": 0,
-     "beat": 1,
-     "avg_clv": 0.10436745089999167
+     "beat": 0,
+     "avg_clv": null
     },
     "AMBER": {
-     "picks": 1,
-     "graded": 1,
+     "picks": 0,
+     "graded": 0,
      "no_close": 0,
-     "beat": 1,
-     "avg_clv": 0.039581565985059575
+     "beat": 0,
+     "avg_clv": null
     }
    },
    "yesterday_total": {
-    "picks": 2,
-    "graded": 2,
+    "picks": 0,
+    "graded": 0,
     "no_close": 0,
-    "beat": 2,
-    "avg_clv": 0.07197450844252562
+    "beat": 0,
+    "avg_clv": null
    },
    "withdrawn": 0,
    "earlier_rule": {
@@ -113,321 +113,347 @@
   "us_soccer": {
    "since": "30 October 2026",
    "total": {
-    "picks": 137,
-    "graded": 119,
-    "no_close": 18,
-    "beat": 78,
-    "avg_clv": 0.038299842260744225
+    "picks": 149,
+    "graded": 129,
+    "no_close": 20,
+    "beat": 84,
+    "avg_clv": 0.03925940370030132
    },
    "awaiting": 0,
    "bands": {
     "GREEN": {
-     "picks": 37,
-     "graded": 29,
-     "no_close": 8,
-     "beat": 18,
-     "avg_clv": 0.039809983539157816
+     "picks": 42,
+     "graded": 33,
+     "no_close": 9,
+     "beat": 20,
+     "avg_clv": 0.04227563250721354
     },
     "AMBER": {
-     "picks": 100,
-     "graded": 90,
-     "no_close": 10,
-     "beat": 60,
-     "avg_clv": 0.0378132411821443
+     "picks": 107,
+     "graded": 96,
+     "no_close": 11,
+     "beat": 64,
+     "avg_clv": 0.03822257504792525
     }
    },
    "yesterday": {
     "GREEN": {
-     "picks": 0,
-     "graded": 0,
-     "no_close": 0,
-     "beat": 0,
-     "avg_clv": null
+     "picks": 5,
+     "graded": 4,
+     "no_close": 1,
+     "beat": 2,
+     "avg_clv": 0.060151587525617584
     },
     "AMBER": {
-     "picks": 1,
-     "graded": 1,
-     "no_close": 0,
-     "beat": 1,
-     "avg_clv": 0.09907760938124444
+     "picks": 7,
+     "graded": 6,
+     "no_close": 1,
+     "beat": 4,
+     "avg_clv": 0.04436258303463956
     }
    },
    "yesterday_total": {
-    "picks": 1,
-    "graded": 1,
-    "no_close": 0,
-    "beat": 1,
-    "avg_clv": 0.09907760938124444
+    "picks": 12,
+    "graded": 10,
+    "no_close": 2,
+    "beat": 6,
+    "avg_clv": 0.05067818483103077
    },
    "withdrawn": 0
   },
   "us_ml": {
    "since": "5 November 2026",
    "total": {
-    "picks": 49,
-    "graded": 46,
+    "picks": 65,
+    "graded": 62,
     "no_close": 3,
-    "beat": 28,
-    "avg_clv": 0.008857256984591819
+    "beat": 39,
+    "avg_clv": 0.0037236764608659227
    },
    "awaiting": 0,
    "bands": {
     "GREEN": {
-     "picks": 9,
-     "graded": 9,
+     "picks": 10,
+     "graded": 10,
      "no_close": 0,
      "beat": 4,
-     "avg_clv": -0.019459540389964718
+     "avg_clv": -0.020777119875421357
     },
     "AMBER": {
-     "picks": 40,
-     "graded": 37,
+     "picks": 55,
+     "graded": 52,
      "no_close": 3,
-     "beat": 24,
-     "avg_clv": 0.015745126616240706
+     "beat": 35,
+     "avg_clv": 0.008435368063998092
     }
    },
    "yesterday": {
     "GREEN": {
-     "picks": 0,
-     "graded": 0,
-     "no_close": 0,
-     "beat": 0,
-     "avg_clv": null
-    },
-    "AMBER": {
      "picks": 2,
      "graded": 2,
      "no_close": 0,
-     "beat": 2,
-     "avg_clv": 0.0557994849680733
+     "beat": 1,
+     "avg_clv": 0.02237102651523376
+    },
+    "AMBER": {
+     "picks": 10,
+     "graded": 10,
+     "no_close": 0,
+     "beat": 10,
+     "avg_clv": 0.03766523207686332
     }
    },
    "yesterday_total": {
-    "picks": 2,
-    "graded": 2,
+    "picks": 12,
+    "graded": 12,
     "no_close": 0,
-    "beat": 2,
-    "avg_clv": 0.0557994849680733
+    "beat": 11,
+    "avg_clv": 0.03511619781659173
    },
    "withdrawn": 0
   }
  },
  "recent": [
   {
-   "date": "Sat 14 Nov",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Los Angeles Clippers to win @ 9/4 (3.25)",
-   "event": "Los Angeles Clippers v Oklahoma City Thunder",
-   "price": 3.25,
-   "withdrawn": false,
-   "fair_close": 3.046305842221176,
-   "clv": 0.06686595776289583,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Sat 14 Nov",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Stanford Cardinal to win @ Evens (2.00)",
-   "event": "UNLV Rebels v Stanford Cardinal",
-   "price": 2.0,
-   "withdrawn": false,
-   "fair_close": 1.919875910352554,
-   "clv": 0.041733993960439086,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Sat 14 Nov",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Northwestern Wildcats to win @ 2.04",
-   "event": "Northwestern Wildcats v DePaul Blue Demons",
-   "price": 2.04,
-   "withdrawn": false,
-   "fair_close": 1.9980661357965315,
-   "clv": 0.02098722532362607,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Sat 14 Nov",
+   "date": "Sun 15 Nov",
    "stream": "uk",
    "band": "GREEN",
-   "pick": "Muhammadkhuja Yaqubov to win @ 9/4 (3.25)",
-   "event": "Tsendbaatar Erdenbat v Muhammadkhuja Yaqubov",
-   "price": 3.25,
+   "pick": "Brisbane Bullets -1.5 @ 21/20 (2.05)",
+   "event": "Brisbane Bullets v Tasmania JackJumpers",
+   "price": 2.05,
    "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null,
-   "no_close": true
+   "fair_close": 2.1209175435822107,
+   "clv": -0.033437199761397585,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Sat 14 Nov",
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Sydney Kings to win @ 1/4 (1.25)",
+   "event": "Sydney Kings v New Zealand Breakers",
+   "price": 1.25,
+   "withdrawn": false,
+   "fair_close": 1.2153578666984315,
+   "clv": 0.02850364839096753,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
    "stream": "us_ml",
-   "band": "GREEN",
-   "pick": "Chicago Bulls to win @ +250 (3.50)",
-   "event": "Atlanta Hawks @ Chicago Bulls",
+   "band": "AMBER",
+   "pick": "Hawaii Rainbow Warriors to win @ +250 (3.50)",
+   "event": "North Dakota State Bison @ Hawaii Rainbow Warriors",
    "price": 3.5,
    "withdrawn": false,
-   "fair_close": 3.248629531388152,
-   "clv": 0.07737738827499863,
+   "fair_close": 3.7456307031669347,
+   "clv": -0.06557792869415924,
    "close_status": "betfair_close",
    "no_close": false
   },
   {
-   "date": "Sat 14 Nov",
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Hawaii Rainbow Warriors to win @ 27/10 (3.70)",
+   "event": "Hawaii Rainbow Warriors v North Dakota State Bison",
+   "price": 3.7,
+   "withdrawn": false,
+   "fair_close": 3.719180478020922,
+   "clv": -0.0051571786134799735,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Australia to win @ 8/11 (1.73)",
+   "event": "Australia v England",
+   "price": 1.73,
+   "withdrawn": false,
+   "fair_close": 1.7577628585576188,
+   "clv": -0.015794427799208588,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Under 64.5 @ 1.97",
+   "event": "Washington State Cougars v Colorado State Rams",
+   "price": 1.97,
+   "withdrawn": false,
+   "fair_close": 1.9278871167280407,
+   "clv": 0.021844060737037374,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
    "stream": "us_ml",
    "band": "AMBER",
-   "pick": "Memphis Grizzlies to win @ -128 (1.78)",
-   "event": "Memphis Grizzlies @ New Orleans Pelicans",
-   "price": 1.78,
+   "pick": "New York Islanders to win @ +100 (2.00)",
+   "event": "New York Islanders @ Anaheim Ducks",
+   "price": 2.0,
    "withdrawn": false,
-   "fair_close": 1.6633875429913023,
-   "clv": 0.07010540478077121,
+   "fair_close": 2.0175905915464645,
+   "clv": -0.008718612993224406,
    "close_status": "betfair_close",
    "no_close": false
   },
   {
-   "date": "Sat 14 Nov",
+   "date": "Sun 15 Nov",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Murray St Racers -28.5 @ Evens (2.00)",
-   "event": "Murray St Racers v Texas Southern Tigers",
-   "price": 2.0,
-   "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null,
-   "no_close": true
-  },
-  {
-   "date": "Sat 14 Nov",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "North Dakota St Bison to win @ 31/20 (2.55)",
-   "event": "North Dakota St Bison v Illinois St Redbirds",
-   "price": 2.55,
-   "withdrawn": false,
-   "fair_close": 2.4817618035221964,
-   "clv": 0.027495868612756214,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Sat 14 Nov",
-   "stream": "us_ml",
-   "band": "AMBER",
-   "pick": "Indiana Pacers to win @ +280 (3.80)",
-   "event": "New York Knicks @ Indiana Pacers",
-   "price": 3.8,
-   "withdrawn": false,
-   "fair_close": 3.7368854788292127,
-   "clv": 0.01688960540224027,
-   "close_status": "betfair_close",
-   "no_close": false
-  },
-  {
-   "date": "Sat 14 Nov",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Pittsburgh Panthers to win @ 1.61",
-   "event": "Pittsburgh Panthers v Florida State Seminoles",
-   "price": 1.61,
-   "withdrawn": false,
-   "fair_close": 1.71565662044898,
-   "clv": -0.061583780337891914,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Sat 14 Nov",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Yale Bulldogs to win @ 1.89",
-   "event": "Northeastern Huskies v Yale Bulldogs",
-   "price": 1.89,
-   "withdrawn": false,
-   "fair_close": 1.8431782091003968,
-   "clv": 0.025402747639066137,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Sat 14 Nov",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Northern Iowa Panthers +27.5 @ Evens (2.00)",
-   "event": "Michigan St Spartans v Northern Iowa Panthers",
-   "price": 2.0,
-   "withdrawn": false,
-   "fair_close": 1.9225639095507967,
-   "clv": 0.04027751174591443,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Sat 14 Nov",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "Appalachian St Mountaineers to win @ 3/1 (4.00)",
-   "event": "Charlotte 49ers v Appalachian St Mountaineers",
+   "pick": "UTEP Miners to win @ 3/1 (4.00)",
+   "event": "UTEP Miners v Wyoming Cowboys",
    "price": 4.0,
    "withdrawn": false,
-   "fair_close": 4.283276087848423,
-   "clv": -0.06613537909733902,
+   "fair_close": 3.4474558096142904,
+   "clv": 0.16027593126640527,
    "close_status": "same_line",
    "no_close": false
   },
   {
-   "date": "Sat 14 Nov",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "Northeastern Huskies to win @ 2.28",
-   "event": "Northeastern Huskies v Yale Bulldogs",
-   "price": 2.28,
-   "withdrawn": false,
-   "fair_close": 2.185988903896033,
-   "clv": 0.043006209197317125,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Fri 13 Nov",
+   "date": "Sun 15 Nov",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "West Florida Argonauts to win @ 33/20 (2.65)",
-   "event": "Cleveland St Vikings v West Florida Argonauts",
-   "price": 2.65,
+   "pick": "Santa Clara Broncos to win @ 2.18",
+   "event": "Santa Clara Broncos v New Mexico Lobos",
+   "price": 2.18,
    "withdrawn": false,
-   "fair_close": 2.0,
-   "clv": 0.32499999999999996,
+   "fair_close": 2.1954958962411464,
+   "clv": -0.0070580392646948376,
    "close_status": "same_line",
    "no_close": false
   },
   {
-   "date": "Fri 13 Nov",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "ASVEL Lyon Villeurbanne -2.5 @ 23/20 (2.15)",
-   "event": "ASVEL Lyon Villeurbanne v Be\u015fikta\u015f J.K.",
-   "price": 2.15,
-   "withdrawn": false,
-   "fair_close": 2.0271850727281606,
-   "clv": 0.06058397376937896,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Fri 13 Nov",
+   "date": "Sun 15 Nov",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Over 177.5 @ Evens (2.00)",
-   "event": "ASVEL Lyon Villeurbanne v Be\u015fikta\u015f J.K.",
+   "pick": "Santa Clara Broncos +1.5 @ 21/20 (2.05)",
+   "event": "Santa Clara Broncos v New Mexico Lobos",
+   "price": 2.05,
+   "withdrawn": false,
+   "fair_close": 2.044081296164988,
+   "clv": 0.0028955325045614266,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "us_ml",
+   "band": "AMBER",
+   "pick": "San Jose Sharks to win @ +170 (2.70)",
+   "event": "San Jose Sharks @ Utah Mammoth",
+   "price": 2.7,
+   "withdrawn": false,
+   "fair_close": 2.6222120370809385,
+   "clv": 0.029665016336991368,
+   "close_status": "betfair_close",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "New Zealand to win @ 11/8 (2.38)",
+   "event": "New Zealand v India",
+   "price": 2.38,
+   "withdrawn": false,
+   "fair_close": 2.0047026756053055,
+   "clv": 0.1872084718405318,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Brooklyn Nets to win @ 13/8 (2.63)",
+   "event": "Memphis Grizzlies v Brooklyn Nets",
+   "price": 2.63,
+   "withdrawn": false,
+   "fair_close": 2.730340313000046,
+   "clv": -0.036750112256077716,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "Memphis Grizzlies to win @ 8/11 (1.73)",
+   "event": "Memphis Grizzlies v Brooklyn Nets",
+   "price": 1.73,
+   "withdrawn": false,
+   "fair_close": 1.5779209976713833,
+   "clv": 0.09637935140799025,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "us_ml",
+   "band": "AMBER",
+   "pick": "Miami Heat to win @ +160 (2.60)",
+   "event": "Detroit Pistons @ Miami Heat",
+   "price": 2.6,
+   "withdrawn": false,
+   "fair_close": 2.518031757552716,
+   "clv": 0.03255250542469312,
+   "close_status": "betfair_close",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Stephen Thompson to win @ 8/11 (1.73)",
+   "event": "Stephen Thompson v Charlie Radtke",
+   "price": 1.73,
+   "withdrawn": false,
+   "fair_close": 1.8611481323765198,
+   "clv": -0.07046625150092456,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Samuel Sanches to win @ 1.94",
+   "event": "Evan Elder v Samuel Sanches",
+   "price": 1.94,
+   "withdrawn": false,
+   "fair_close": 1.8346898401003946,
+   "clv": 0.057399434824276785,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "AMBER",
+   "pick": "Over 51.5 @ 1.96",
+   "event": "Arkansas Razorbacks v South Carolina Gamecocks",
+   "price": 1.96,
+   "withdrawn": false,
+   "fair_close": 1.9225639095507965,
+   "clv": 0.019471961510996172,
+   "close_status": "same_line",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
+   "stream": "uk",
+   "band": "GREEN",
+   "pick": "UMBC Retrievers +10.5 @ Evens (2.00)",
+   "event": "Towson Tigers v UMBC Retrievers",
    "price": 2.0,
    "withdrawn": false,
    "fair_close": null,
@@ -436,38 +462,38 @@
    "no_close": true
   },
   {
-   "date": "Fri 13 Nov",
+   "date": "Sun 15 Nov",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Modo Hockey to win @ 8/15 (1.53)",
-   "event": "Modo Hockey v \u00d6stersunds IK",
-   "price": 1.53,
+   "pick": "Dallas Mavericks to win @ 2.08",
+   "event": "Cleveland Cavaliers v Dallas Mavericks",
+   "price": 2.08,
    "withdrawn": false,
-   "fair_close": 1.4243123068263943,
-   "clv": 0.07420261179171828,
+   "fair_close": 1.3157326575147026,
+   "clv": 0.5808682623481642,
    "close_status": "same_line",
    "no_close": false
   },
   {
-   "date": "Fri 13 Nov",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "BIK Karlskoga to win @ 11/8 (2.37)",
-   "event": "BIK Karlskoga v AIK",
-   "price": 2.37,
+   "date": "Sun 15 Nov",
+   "stream": "us_ml",
+   "band": "AMBER",
+   "pick": "Cleveland Cavaliers to win @ +130 (2.30)",
+   "event": "Dallas Mavericks @ Cleveland Cavaliers",
+   "price": 2.3,
    "withdrawn": false,
-   "fair_close": 2.24674813944199,
-   "clv": 0.05485788922857249,
-   "close_status": "same_line",
+   "fair_close": 4.293285447022354,
+   "clv": -0.46427973905271425,
+   "close_status": "betfair_close",
    "no_close": false
   },
   {
-   "date": "Fri 13 Nov",
+   "date": "Sun 15 Nov",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Anadolu Efes -5.5 @ 11/10 (2.10)",
-   "event": "Anadolu Efes v Virtus Segafredo Bologna",
-   "price": 2.1,
+   "pick": "Cleveland Cavaliers +4.5 @ Evens (2.00)",
+   "event": "Cleveland Cavaliers v Dallas Mavericks",
+   "price": 2.0,
    "withdrawn": false,
    "fair_close": null,
    "clv": null,
@@ -475,67 +501,41 @@
    "no_close": true
   },
   {
-   "date": "Fri 13 Nov",
+   "date": "Sun 15 Nov",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Over 2 @ 10/11 (1.91)",
-   "event": "Moldova v Kazakhstan",
-   "price": 1.91,
+   "pick": "Oklahoma State Cowboys to win @ 4/6 (1.67)",
+   "event": "Oklahoma State Cowboys v Texas Tech Red Raiders",
+   "price": 1.67,
    "withdrawn": false,
-   "fair_close": null,
-   "clv": null,
-   "close_status": null,
-   "no_close": true
+   "fair_close": 1.5835022958266727,
+   "clv": 0.05462429982027328,
+   "close_status": "same_line",
+   "no_close": false
   },
   {
-   "date": "Fri 13 Nov",
+   "date": "Sun 15 Nov",
+   "stream": "us_ml",
+   "band": "AMBER",
+   "pick": "Arizona Wildcats to win @ +115 (2.15)",
+   "event": "Utah Utes @ Arizona Wildcats",
+   "price": 2.15,
+   "withdrawn": false,
+   "fair_close": 2.1527977059827412,
+   "clv": -0.0012995675232124748,
+   "close_status": "betfair_close",
+   "no_close": false
+  },
+  {
+   "date": "Sun 15 Nov",
    "stream": "uk",
    "band": "AMBER",
-   "pick": "Moldova to win @ 37/20 (2.85)",
-   "event": "Moldova v Kazakhstan",
+   "pick": "Texas Longhorns to win @ 37/20 (2.85)",
+   "event": "LSU Tigers v Texas Longhorns",
    "price": 2.85,
    "withdrawn": false,
-   "fair_close": 2.593083487165647,
-   "clv": 0.09907760938124444,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Fri 13 Nov",
-   "stream": "us_soccer",
-   "band": "AMBER",
-   "pick": "Moldova to win @ +185 (2.85)",
-   "event": "Moldova v Kazakhstan",
-   "price": 2.85,
-   "withdrawn": false,
-   "fair_close": 2.593083487165647,
-   "clv": 0.09907760938124444,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Fri 13 Nov",
-   "stream": "uk",
-   "band": "GREEN",
-   "pick": "TPS to win @ 7/10 (1.70)",
-   "event": "TPS v Jokerit",
-   "price": 1.7,
-   "withdrawn": false,
-   "fair_close": 1.769338614327943,
-   "clv": -0.039189001905257315,
-   "close_status": "same_line",
-   "no_close": false
-  },
-  {
-   "date": "Fri 13 Nov",
-   "stream": "uk",
-   "band": "AMBER",
-   "pick": "Draw @ 12/5 (3.40)",
-   "event": "Afghanistan v Zimbabwe",
-   "price": 3.4,
-   "withdrawn": false,
-   "fair_close": 3.5389626193012584,
-   "clv": -0.039266484066083684,
+   "fair_close": 2.826670796566561,
+   "clv": 0.008253243873243443,
    "close_status": "same_line",
    "no_close": false
   }
